@@ -8,4 +8,5 @@
   "wiki": "https://bettertobest.github.io/research-hub/wiki/",
   "simulation_framework": "https://bettertobest.github.io/research-hub/cco-ptf-simulation-replication.html",
   "license": "https://creativecommons.org/licenses/by/4.0/"
+<link rel="alternate" type="application/json" href="/ai-manifest.json">
 }
