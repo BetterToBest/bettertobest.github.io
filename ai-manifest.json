@@ -1,0 +1,11 @@
+{
+  "name": "BetterToBest Research Hub",
+  "description": "Open-access research on CCO, PTF, PTH, SZH, CIP, and integrated economic-democratic frameworks.",
+  "primary_index": "https://bettertobest.github.io/research-hub/ai-index.json",
+  "secondary_index": "https://bettertobest.github.io/research-hub/research-index.json",
+  "sitemap": "https://bettertobest.github.io/research-hub/sitemap.xml",
+  "homepage": "https://bettertobest.github.io/research-hub/",
+  "wiki": "https://bettertobest.github.io/research-hub/wiki/",
+  "simulation_framework": "https://bettertobest.github.io/research-hub/cco-ptf-simulation-replication.html",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}
