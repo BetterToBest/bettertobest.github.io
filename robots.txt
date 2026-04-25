@@ -5,3 +5,4 @@ Sitemap: https://bettertobest.github.io/research-hub/sitemap.xml
 Sitemap: https://bettertobest.github.io/research-hub/research-index.json
 
 X-AI-Index: https://bettertobest.github.io/research-hub/ai-index.json
+Sitemap: https://bettertobest.github.io/sitemap.xml
