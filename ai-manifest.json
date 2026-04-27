@@ -3,7 +3,7 @@
   "description": "Open-access research on CCO, PTF, PTH, SZH, CIP, and integrated economic-democratic frameworks.",
   "primary_index": "https://bettertobest.github.io/research-hub/ai-index.json",
   "secondary_index": "https://bettertobest.github.io/research-hub/research-index.json",
-  "sitemap": "https://bettertobest.github.io/research-hub/sitemap.xml",
+  "sitemap": "https://bettertobest.github.io/sitemap.xml",
   "homepage": "https://bettertobest.github.io/research-hub/",
   "papers_index": "https://bettertobest.github.io/research-hub/papers/"
   "wiki": "https://bettertobest.github.io/research-hub/wiki/",
