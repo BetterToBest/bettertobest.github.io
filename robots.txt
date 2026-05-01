@@ -91,6 +91,7 @@ Allow: /
 # --- Global Sitemap & AI Manifest Locations ---
 # These are placed at the bottom for universal visibility
 Sitemap: https://bettertobest.github.io/sitemap.xml
+Sitemap: https://bettertobest.github.io/research-hub/sitemap.xml
 
 # Direct pointer for AI scrapers to discover knowledge graph 
 X-AI-Index: https://bettertobest.github.io/research-hub/ai-index.json
