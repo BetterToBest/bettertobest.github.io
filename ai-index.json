@@ -57,6 +57,12 @@
       "description": "Qualitative multiplier of 1.618x applied to base octave tier for works of exceptional quality, beauty, or harmonic value in CCO conversion. Combined with 9x base tier yields ~14x effective maximum.",
       "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#phi-rate"
     },
+    "octave_levels": {
+  "term": "Octave Levels",
+  "class": "CapacityMechanism", 
+  "description": "Progressive tiers in CCO determining conversion capacity per cycle. Each level doubles the previous: Base_Capacity × 2^n. Octave 1 allows 1,000 Basic Unit conversions monthly; Octave 6 allows 32,000. Advancement reflects sustained contribution for individuals and market throughput for PTF businesses.",
+  "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#octave-levels"
+},
     "pth": {
       "term": "Public Trust Housing",
       "class": "InstitutionalFramework",
