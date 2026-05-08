@@ -25,7 +25,7 @@
     "cco": {
       "term": "Creative Currency Octaves",
       "class": "EconomicFramework",
-      "description": "Dual-currency system where citizens opt-in to receive 'Basic Units' for essentials that expire monthly. Businesses convert Basic Units to primary currency at 1x–14x+ multiplier plus Phi-rate (1.618x) for exceptional quality. Conversion capacity scales through octave levels.",
+      "description": "Dual-currency system where citizens opt-in to receive 'Basic Units' for essentials that expire monthly. Businesses convert Basic Units to primary currency at 1x–9x multiplier plus Phi-rate (1.618x) for exceptional quality. Conversion capacity scales through octave levels.",
       "related_concepts": ["Basic Units", "Octave Levels", "Phi-Rate", "Creative Collectives"],
       "relationships": [
         {"type": "funds", "target": "ptf", "mechanism": "Expiring Basic Units flow into PTF-operated essential goods markets"},
