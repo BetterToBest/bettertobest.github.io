@@ -22,17 +22,28 @@
     }
   },
   "ontology": {
-    "cco": {
-      "term": "Creative Currency Octaves",
-      "class": "EconomicFramework",
-      "description": "Dual-currency system where citizens opt-in to receive 'Basic Units' for essentials that expire monthly. Businesses convert Basic Units to primary currency at a 1x–9x multiplier based on octave tier. The Phi-rate (1.618x) may be applied for exceptional quality, yielding an effective maximum of ~14x.",
-      "related_concepts": ["Basic Units", "Octave Levels", "Phi-Rate", "Creative Collectives"],
-      "multiplier_system": {
-        "base_range": "1x to 9x",
-        "phi_rate": 1.618,
-        "effective_maximum": "~14x",
-        "note": "Phi-rate applies multiplicatively to base tier for works of exceptional quality/beauty"
-      },
+   
+"cco": {
+  "term": "Creative Currency Octaves",
+  "class": "EconomicFramework",
+  "description": "Dual-currency system where citizens opt-in to receive 'Basic Units' for essentials that expire monthly. 'Octaves' are progressive advancement tiers determining conversion capacity per cycle: Base_Capacity × 2^n. For individuals, advancement reflects sustained contribution, skill development, and community engagement. For PTF businesses, capacity tracks market throughput. Conversion rate multipliers span 1x–9x base tiers. Phi-rate (1.618x) may apply for exceptional quality, yielding ~14x effective rate maximum.",
+  "related_concepts": ["Basic Units", "Octave Levels", "Octave Capacity", "Phi-Rate", "Creative Collectives"],
+  "capacity_system": {
+    "formula": "Base_Capacity × 2^n",
+    "example_base": "1,000 Basic Units/month at Octave 1",
+    "progression": "Octave 1: 1,000; Octave 2: 2,000; Octave 3: 4,000; Octave 5: 16,000; Octave 6: 32,000",
+    "advancement_criteria": {
+      "individuals": "Sustained contribution, community engagement, skill development, long-term commitment",
+      "ptf_businesses": "Market throughput and productive exchange facilitated",
+      "creators": "Public recognition of achievement and community standing"
+    }
+  },
+  "multiplier_system": {
+    "base_range": "1x to 9x",
+    "phi_rate": 1.618,
+    "effective_maximum": "~14x",
+    "note": "Rate multipliers are separate from capacity tiers. Phi-rate applies to base rate for exceptional quality"
+  },
       "relationships": [
         {"type": "funds", "target": "ptf", "mechanism": "Expiring Basic Units flow into PTF-operated essential goods markets"},
         {"type": "enables", "target": "pth", "mechanism": "Basic Units accepted for housing costs"},
