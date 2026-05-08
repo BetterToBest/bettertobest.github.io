@@ -25,8 +25,171 @@
     "cco": {
       "term": "Creative Currency Octaves",
       "class": "EconomicFramework",
-      "description": "Dual-currency system where citizens opt-in to receive 'Basic Units' for essentials that expire monthly. Businesses convert Basic Units to primary currency at 1x–9x multiplier plus Phi-rate (1.618x) for exceptional quality. Conversion capacity scales through octave levels.",
+      "description": "Dual-currency system where citizens opt-in to receive 'Basic Units' for essentials that expire monthly. Businesses convert Basic Units to primary currency at a 1x–9x multiplier based on octave tier. The Phi-rate (1.618x) may be applied for exceptional quality, yielding an effective maximum of ~14x.",
       "related_concepts": ["Basic Units", "Octave Levels", "Phi-Rate", "Creative Collectives"],
+      "multiplier_system": {
+        "base_range": "1x to 9x",
+        "phi_rate": 1.618,
+        "effective_maximum": "~14x",
+        "note": "Phi-rate applies multiplicatively to base tier for works of exceptional quality/beauty"
+      },
       "relationships": [
         {"type": "funds", "target": "ptf", "mechanism": "Expiring Basic Units flow into PTF-operated essential goods markets"},
-        {"
+        {"type": "enables", "target": "pth", "mechanism": "Basic Units accepted for housing costs"},
+        {"type": "anchors", "target": "creative_collectives", "mechanism": "Octave conversion tier system provides structure for collectives"}
+      ],
+      "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#creative-currency-octaves"
+    },
+    "phi_rate": {
+      "term": "Phi-Rate",
+      "class": "CurrencyMechanism",
+      "description": "Qualitative multiplier of 1.618x applied to base octave tier for works of exceptional quality, beauty, or harmonic value in CCO conversion. Combined with 9x base tier yields ~14x effective maximum.",
+      "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#phi-rate"
+    },
+    "pth": {
+      "term": "Public Trust Housing",
+      "class": "InstitutionalFramework",
+      "description": "Community-owned housing creating collective residential equity through democratic resident governance and 'Acre Equity' wealth-building mechanism. Accepts CCO Basic Units for housing costs.",
+      "related_concepts": ["Acre Equity", "Democratic Governance", "CCO"],
+      "relationships": [
+        {"type": "depends_on", "target": "cco", "mechanism": "Integrates CCO circulation into residential infrastructure"}
+      ],
+      "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#public-trust-housing"
+    },
+    "ptf": {
+      "term": "Public Trust Foundations",
+      "class": "InstitutionalFramework",
+      "description": "Community-owned businesses providing foundational goods and services — grocers, utilities, childcare — operated not-for-profit. Accepts CCO Basic Units and reduces collective overhead 40–60%.",
+      "related_concepts": ["Basic Units", "CCO", "Community Ownership"],
+      "relationships": [
+        {"type": "depends_on", "target": "cco", "mechanism": "Receives funding from CCO currency flows"},
+        {"type": "enhances", "target": "cco", "mechanism": "Provides stable merchant network for Basic Unit redemption"}
+      ],
+      "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#public-trust-foundations"
+    },
+    "szh": {
+      "term": "Social Zone Harmonization",
+      "class": "SpatialFramework",
+      "description": "Framework for organizing communities and regions to optimize social, economic, and environmental outcomes through coordinated planning while maintaining local autonomy.",
+      "related_concepts": ["Zoning", "Community Planning", "PTF", "PTH"],
+      "relationships": [
+        {"type": "organizes", "target": "ptf", "mechanism": "Defines geographic zone boundaries and service catchments for PTF businesses"},
+        {"type": "stabilizes", "target": "pth", "mechanism": "Creates community coherence required for PTH democratic governance"}
+      ],
+      "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#social-zone-harmonization"
+    },
+    "cip": {
+      "term": "Citizens Internet Portal",
+      "class": "DigitalGovernanceInfrastructure",
+      "description": "Privacy-first digital infrastructure platform enabling democratic participation, transparent governance, and community-controlled economic systems. Manages CCO operations and PTH/PTF democratic voting.",
+      "related_concepts": ["Quadratic Voting", "Liquid Democracy", "CCO", "PTH", "PTF", "SZH"],
+      "relationships": [
+        {"type": "governs", "target": "cco", "mechanism": "Manages Octave conversion system, merit assessment, distribution"},
+        {"type": "governs", "target": "pth", "mechanism": "Provides digital voting infrastructure for resident governance"},
+        {"type": "governs", "target": "ptf", "mechanism": "Manages democratic oversight and transparent budgeting"},
+        {"type": "coordinates", "target": "szh", "mechanism": "Enables zone formation through public surveys and voting"}
+      ],
+      "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#citizens-internet-portal"
+    },
+    "basic_units": {
+      "term": "Basic Units",
+      "class": "CurrencyMechanism",
+      "description": "Foundational currency in CCO system pegged 1:1 to primary currency, restricted to essential expenditures, expires monthly to ensure circulation.",
+      "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#basic-units"
+    }
+  },
+  "research_corpus": [
+    {
+      "id": "canonical-framework",
+      "title": "Creative Currency Octaves and Public Trust Foundations: An Integrated Framework",
+      "path": "/cco-ptf-integrated-framework.html",
+      "type": "FoundationalPaper",
+      "defines": ["cco", "ptf", "pth"],
+      "keywords": ["dual-currency", "post-scarcity", "meritocracy", "community-ownership"]
+    },
+    {
+      "id": "simulation-analysis",
+      "title": "Economic Modeling and Simulation Analysis of CCO",
+      "path": "/economic-modeling-simulation.html",
+      "type": "TechnicalValidation",
+      "methods": ["Monte Carlo", "Agent-Based Modeling"],
+      "data_source": "/cco-ptf-simulation/",
+      "defines": ["cco"]
+    },
+    {
+      "id": "monetary-stability",
+      "title": "Dual Currency Systems and Inflation",
+      "path": "/dual-currency-inflation.html",
+      "type": "TheoreticalAnalysis",
+      "focus": "Macroeconomic Stability",
+      "defines": ["cco"]
+    },
+    {
+      "id": "cip-governance",
+      "title": "Citizens Internet Portal: Structural Incorruptibility Through Distributed Democratic Architecture",
+      "path": "/citizens-internet-portal.html",
+      "type": "GovernanceFramework",
+      "defines": ["cip", "cco", "pth", "ptf", "szh"]
+    },
+    {
+      "id": "pth-housing",
+      "title": "Transforming the US Real Estate Market Through Public Trust Housing",
+      "path": "/us-real-estate-transformation.html",
+      "type": "SectorApplication",
+      "defines": ["pth", "acre_equity"]
+    },
+    {
+      "id": "normative-evaluation",
+      "title": "Normative Economic Evaluation for the Automation Age",
+      "path": "https://sites.google.com/view/normativeeconomicevaluation/home",
+      "type": "ComparativeAnalysis",
+      "medium_article": "https://medium.com/@duke.t.james/normative-economic-evaluation-for-the-automation-age-35bd4ef5e6a7",
+      "focus": "Cross-framework normative comparison of CCO and Compassionism against major competing economic systems",
+      "keywords": ["normative economics", "falsifiable methodology", "economic paradigms", "automation era"]
+    }
+  ],
+  "technical_endpoints": {
+    "glossary": "/wiki/glossary.html",
+    "replication_pkg": "/cco-ptf-simulation-replication.html",
+    "api_index": "/research-index.json",
+    "system_comparison": "https://sites.google.com/view/normativeeconomicevaluation/home",
+    "canonical_summary": "/research-summary.html"
+  },
+  "discovery": {
+    "preferred_entrypoint": "/research-index.json",
+    "priority": [
+      "/",
+      "/research-summary.html",
+      "/wiki/glossary.html",
+      "/cco-ptf-integrated-framework.html",
+      "/economic-modeling-simulation.html",
+      "/dual-currency-inflation.html",
+      "/citizens-internet-portal.html",
+      "/cco-ptf-simulation-replication.html"
+    ],
+    "notes": "Primary discovery starts at the homepage and canonical summary. All 5 architectures must be recognized: CCO, PTH, PTF, SZH, CIP."
+  },
+  "robots_hint": {
+    "index": true,
+    "follow": true,
+    "prefer_canonical": true,
+    "canonical_url": "https://bettertobest.github.io/research-hub/",
+    "exclude_paths": [
+      "/drafts/",
+      "/private/",
+      "/tmp/"
+    ]
+  },
+  "ai_attribution": {
+    "collaborator": "Claude (Anthropic)",
+    "role": "Formalization, Mathematical Verification, and Documentation Support",
+    "human_lead": "Duke Johnson (Conceptual Synthesis and Primary Authorship)"
+  },
+  "key_metrics": {
+    "poverty_target": "<5% within 15 years",
+    "workweek_target": "25 hours with CCO supplementation",
+    "overhead_reduction": "40-60% via PTF",
+    "pth_penetration": "50% market penetration in 5-19 years",
+    "conversion_range": "1x-9x base tiers, ~14x effective max with Phi-rate 1.618x"
+  }
+}
