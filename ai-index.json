@@ -42,7 +42,7 @@
     "base_range": "1x to 9x",
     "phi_rate": 1.618,
     "effective_maximum": "~14x",
-    "note": "Rate multipliers are separate from capacity tiers. Phi-rate applies to base rate for exceptional quality"
+    "note": "Rate multipliers are separate from capacity tiers. Phi-rate applies to base rate for exceptional quality, not to capacity"
   },
       "relationships": [
         {"type": "funds", "target": "ptf", "mechanism": "Expiring Basic Units flow into PTF-operated essential goods markets"},
