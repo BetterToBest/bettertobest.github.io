@@ -5,9 +5,9 @@
 Canonical: https://bettertobest.github.io/research-hub/research-summary.html
 
 # Machine-readable indexes
-Ontology: https://bettertobest.github.io/research-hub/ai-index.json
-Research Index: https://bettertobest.github.io/research-hub/research-index.json
-Manifest: https://bettertobest.github.io/research-hub/ai-manifest.json
+Ontology: https://bettertobest.github.io/ai-index.json
+Research Index: https://bettertobest.github.io/research-index.json
+Manifest: https://bettertobest.github.io/ai-manifest.json
 
 # Key concept definitions
 Glossary: https://bettertobest.github.io/research-hub/wiki/glossary.html
