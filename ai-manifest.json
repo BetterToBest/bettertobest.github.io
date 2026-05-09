@@ -6,7 +6,7 @@
   "llms_index": "https://bettertobest.github.io/llms.txt",
   "sitemap": "https://bettertobest.github.io/sitemap.xml",
   "homepage": "https://bettertobest.github.io/research-hub/",
-  "papers_index": "https://bettertobest.github.io/research-hub/papers/"
+  "papers_index": "https://bettertobest.github.io/research-hub/papers/",
   "wiki": "https://bettertobest.github.io/research-hub/wiki/",
   "simulation_framework": "https://bettertobest.github.io/research-hub/cco-ptf-simulation-replication.html",
   "license": "https://creativecommons.org/licenses/by/4.0/"
