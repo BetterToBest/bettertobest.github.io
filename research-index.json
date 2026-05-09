@@ -4,6 +4,7 @@
   "name": "Better To Best Research Hub",
   "description": "Open-access research on Creative Currency Octaves, governance, and future economics. Collection includes 16+ research papers covering economic modeling, welfare design, digital governance, anti-corruption infrastructure, corporate transformation, and community development.",
   "url": "https://bettertobest.github.io/research-hub/",
+  "inLanguage": "en-US",
   "creator": {
     "@type": "Person",
     "name": "Duke Johnson",
@@ -11,7 +12,6 @@
     "email": "Duke.T.James@gmail.com",
     "url": "https://authordukejohnson.bsky.social",
     "sameAs": [
-      "https://authordukejohnson.bsky.social",
       "https://x.com/Author_Duke_J",
       "https://independentresearcher.academia.edu/DukeJohnson"
     ]
@@ -30,8 +30,8 @@
     "attribution_note": "Claude is credited as a co-author because the work relied on substantive AI-assisted intellectual development and drafting support."
   },
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "dateModified": "2026-04-24",
-  "numberOfItems": 16,
+  "dateModified": "2026-05-08",
+  "numberOfItems": 19,
   "keywords": [
     "Creative Currency Octaves",
     "Public Trust Housing",
@@ -84,11 +84,6 @@
       "name": "Social Zone Harmonization",
       "description": "Framework for organizing communities to optimize social, economic, and environmental outcomes",
       "additionalType": "SocialCoordinationLayer"
-    },
-    {
-      "@type": "Thing",
-      "name": "Economic Modeling",
-      "description": "Mathematical and computational analysis of economic systems"
     }
   ],
   "hasPart": [
@@ -98,8 +93,8 @@
       "url": "https://bettertobest.github.io/research-hub/optimal-transfer-design.html",
       "datePublished": "2025-07-31",
       "author": [
-        {"@type": "Person", "name": "Duke Johnson"},
-        {"@type": "Organization", "name": "Claude (Anthropic)"}
+        {"@type": "Person", "name": "Duke Johnson", "@id": "https://independentresearcher.academia.edu/DukeJohnson"},
+        {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}
       ],
       "keywords": ["Welfare Economics", "Universal Basic Income", "Merit-Based Systems", "Transfer Design"],
       "abstract": "Integrated welfare framework combining Creative Currency Octaves with dual-tier incentive mechanisms and Public Trust Foundations, addressing work disincentive effects, welfare cliffs, and administrative inefficiency.",
@@ -115,8 +110,8 @@
       "url": "https://bettertobest.github.io/research-hub/dual-currency-inflation.html",
       "datePublished": "2025-08-15",
       "author": [
-        {"@type": "Person", "name": "Duke Johnson"},
-        {"@type": "Organization", "name": "Claude (Anthropic)"}
+        {"@type": "Person", "name": "Duke Johnson", "@id": "https://independentresearcher.academia.edu/DukeJohnson"},
+        {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}
       ],
       "keywords": ["Monetary Theory", "Inflation Analysis", "Dual Currency Systems", "Price Stability"],
       "encoding": {
@@ -131,8 +126,8 @@
       "url": "https://bettertobest.github.io/research-hub/economic-modeling-simulation.html",
       "datePublished": "2025-08-20",
       "author": [
-        {"@type": "Person", "name": "Duke Johnson"},
-        {"@type": "Organization", "name": "Claude (Anthropic)"}
+        {"@type": "Person", "name": "Duke Johnson", "@id": "https://independentresearcher.academia.edu/DukeJohnson"},
+        {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}
       ],
       "keywords": ["Economic Modeling", "Agent-Based Modeling", "Monte Carlo Simulation", "Policy Evaluation"],
       "abstract": "Comprehensive economic modeling and simulation analysis of Creative Currency Octaves implementation across diverse community scenarios using agent-based modeling and Monte Carlo simulation techniques.",
@@ -148,8 +143,8 @@
       "url": "https://bettertobest.github.io/research-hub/cco-ptf-integrated-framework.html",
       "datePublished": "2025-08-25",
       "author": [
-        {"@type": "Person", "name": "Duke Johnson"},
-        {"@type": "Organization", "name": "Claude (Anthropic)"}
+        {"@type": "Person", "name": "Duke Johnson", "@id": "https://independentresearcher.academia.edu/DukeJohnson"},
+        {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}
       ],
       "keywords": ["Alternative Currencies", "Poverty Reduction", "Community Wealth Building", "Systems Integration"],
       "abstract": "Innovative economic framework combining mathematically progressive benefit structures with Public Trust Foundations to achieve comprehensive poverty elimination and economic stabilization.",
@@ -165,8 +160,8 @@
       "url": "https://bettertobest.github.io/research-hub/integrated-digital-governance.html",
       "datePublished": "2025-08-28",
       "author": [
-        {"@type": "Person", "name": "Duke Johnson"},
-        {"@type": "Organization", "name": "Claude (Anthropic)"}
+        {"@type": "Person", "name": "Duke Johnson", "@id": "https://independentresearcher.academia.edu/DukeJohnson"},
+        {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}
       ],
       "keywords": ["Digital Governance", "Citizens Internet Portal", "Democratic Participation", "Systems Coordination"],
       "encoding": {
@@ -181,8 +176,8 @@
       "url": "https://bettertobest.github.io/research-hub/drug-policy-reform.html",
       "datePublished": "2025-08-31",
       "author": [
-        {"@type": "Person", "name": "Duke Johnson"},
-        {"@type": "Organization", "name": "Claude (Anthropic)"}
+        {"@type": "Person", "name": "Duke Johnson", "@id": "https://independentresearcher.academia.edu/DukeJohnson"},
+        {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}
       ],
       "keywords": ["Drug Policy", "Public Health", "Community Support", "Cost-Benefit Analysis"],
       "encoding": {
@@ -197,8 +192,8 @@
       "url": "https://bettertobest.github.io/research-hub/democratic-governance-pth.html",
       "datePublished": "2025-08-30",
       "author": [
-        {"@type": "Person", "name": "Duke Johnson"},
-        {"@type": "Organization", "name": "Claude (Anthropic)"}
+        {"@type": "Person", "name": "Duke Johnson", "@id": "https://independentresearcher.academia.edu/DukeJohnson"},
+        {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}
       ],
       "keywords": ["Governance", "Democracy", "Housing Policy", "Community Management"],
       "encoding": {
@@ -213,8 +208,8 @@
       "url": "https://bettertobest.github.io/research-hub/risk-mitigation-framework.html",
       "datePublished": "2025-08-31",
       "author": [
-        {"@type": "Person", "name": "Duke Johnson"},
-        {"@type": "Organization", "name": "Claude (Anthropic)"}
+        {"@type": "Person", "name": "Duke Johnson", "@id": "https://independentresearcher.academia.edu/DukeJohnson"},
+        {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}
       ],
       "keywords": ["Risk Management", "Economic Innovation", "Implementation Planning", "Crisis Response"],
       "encoding": {
@@ -229,8 +224,8 @@
       "url": "https://bettertobest.github.io/research-hub/us-real-estate-transformation.html",
       "datePublished": "2025-08-25",
       "author": [
-        {"@type": "Person", "name": "Duke Johnson"},
-        {"@type": "Organization", "name": "Claude (Anthropic)"}
+        {"@type": "Person", "name": "Duke Johnson", "@id": "https://independentresearcher.academia.edu/DukeJohnson"},
+        {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}
       ],
       "keywords": ["Real Estate Policy", "Market Transformation", "Housing Affordability", "Acre Equity"],
       "encoding": {
@@ -245,8 +240,8 @@
       "url": "https://bettertobest.github.io/research-hub/cultural-value-integration.html",
       "datePublished": "2025-08-20",
       "author": [
-        {"@type": "Person", "name": "Duke Johnson"},
-        {"@type": "Organization", "name": "Claude (Anthropic)"}
+        {"@type": "Person", "name": "Duke Johnson", "@id": "https://independentresearcher.academia.edu/DukeJohnson"},
+        {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}
       ],
       "keywords": ["Cultural Economics", "Creative Industries", "Value Recognition", "Phi Rate"],
       "encoding": {
@@ -261,8 +256,8 @@
       "url": "https://bettertobest.github.io/research-hub/community-monetary-development.html",
       "datePublished": "2025-08-18",
       "author": [
-        {"@type": "Person", "name": "Duke Johnson"},
-        {"@type": "Organization", "name": "Claude (Anthropic)"}
+        {"@type": "Person", "name": "Duke Johnson", "@id": "https://independentresearcher.academia.edu/DukeJohnson"},
+        {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}
       ],
       "keywords": ["Development Economics", "Community Currency", "Emerging Economies", "Poverty Reduction"],
       "encoding": {
@@ -277,8 +272,8 @@
       "url": "https://bettertobest.github.io/research-hub/pth-independent-financing.html",
       "datePublished": "2025-09-05",
       "author": [
-        {"@type": "Person", "name": "Duke Johnson"},
-        {"@type": "Organization", "name": "Claude (Anthropic)"}
+        {"@type": "Person", "name": "Duke Johnson", "@id": "https://independentresearcher.academia.edu/DukeJohnson"},
+        {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}
       ],
       "keywords": ["Housing Finance", "Independent Funding", "Community Development", "Cooperative Models"],
       "encoding": {
@@ -293,8 +288,8 @@
       "url": "https://bettertobest.github.io/research-hub/universal-implementation-framework.html",
       "datePublished": "2025-09-11",
       "author": [
-        {"@type": "Person", "name": "Duke Johnson"},
-        {"@type": "Organization", "name": "Claude (Anthropic)"}
+        {"@type": "Person", "name": "Duke Johnson", "@id": "https://independentresearcher.academia.edu/DukeJohnson"},
+        {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}
       ],
       "keywords": ["Implementation Framework", "Technology Specifications", "International Development", "Human Thriving"],
       "encoding": {
@@ -309,8 +304,8 @@
       "url": "https://bettertobest.github.io/research-hub/pth-government-integration.html",
       "datePublished": "2025-09-08",
       "author": [
-        {"@type": "Person", "name": "Duke Johnson"},
-        {"@type": "Organization", "name": "Claude (Anthropic)"}
+        {"@type": "Person", "name": "Duke Johnson", "@id": "https://independentresearcher.academia.edu/DukeJohnson"},
+        {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}
       ],
       "keywords": ["Government Integration", "Public Policy", "Implementation Strategy", "Scaling"],
       "encoding": {
@@ -325,8 +320,8 @@
       "url": "https://bettertobest.github.io/research-hub/citizens-internet-portal.html",
       "datePublished": "2025-12-29",
       "author": [
-        {"@type": "Person", "name": "Duke Johnson"},
-        {"@type": "Organization", "name": "Claude (Anthropic)"}
+        {"@type": "Person", "name": "Duke Johnson", "@id": "https://independentresearcher.academia.edu/DukeJohnson"},
+        {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}
       ],
       "keywords": ["Digital Democracy", "Anti-Corruption Infrastructure", "Distributed Governance", "Blockchain Voting", "Inverse Elite", "Structural Incorruptibility", "Judicial Guard"],
       "abstract": "Proposes the Citizens Internet Portal as a comprehensive solution to the corruption paradox through distributed architecture, the Judicial Guard concept, and integration with CCO-PTF-SZH to make corruption structurally impossible, economically irrational, and technically infeasible.",
@@ -343,8 +338,8 @@
       "datePublished": "2025-11-22",
       "dateModified": "2026-01-08",
       "author": [
-        {"@type": "Person", "name": "Duke Johnson"},
-        {"@type": "Organization", "name": "Claude (Anthropic)"}
+        {"@type": "Person", "name": "Duke Johnson", "@id": "https://independentresearcher.academia.edu/DukeJohnson"},
+        {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}
       ],
       "keywords": ["Corporate Transformation", "Federal Reserve Reform", "Work Structure Evolution", "Automation Impact", "Creator Collective Economics", "Monetary Policy", "Quantum Computing"],
       "abstract": "Examines corporate structure transformation following CCO-PTF integration and Federal Reserve mandate reform. Key findings: 25-hour workweeks with CCO supplementation maintain productivity while reducing overhead 35-50%. Proposes shifting the Fed mandate to a human flourishing orientation enabling the full transition from fractional reserve to full creative reserve economics.",
