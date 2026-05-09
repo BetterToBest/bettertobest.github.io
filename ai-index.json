@@ -43,7 +43,7 @@
   "multiplier_system": {
     "base_range": "1x to 9x",
     "phi_rate": 1.618,
-    "effective_maximum": "~14x",
+    "effective_maximum": 14.56x,
     "note": "Rate multipliers are separate from capacity tiers. Phi-rate applies to base rate for exceptional quality, not to capacity"
   },
       "relationships": [
@@ -56,7 +56,7 @@
     "phi_rate": {
       "term": "Phi-Rate",
       "class": "CurrencyMechanism",
-      "description": "Qualitative multiplier of 1.618x applied to base octave tier for works of exceptional quality, beauty, or harmonic value in CCO conversion. Combined with 9x base tier yields ~14x effective maximum.",
+      "description": "Qualitative multiplier of 1.618x applied to base octave tier for works of exceptional quality, beauty, or harmonic value in CCO conversion. Combined with 9x base tier yields 14.56x effective maximum.",
       "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#phi-rate"
     },
     "octave_levels": {
