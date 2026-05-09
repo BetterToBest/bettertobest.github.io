@@ -63,7 +63,7 @@
   "description": "Progressive tiers in CCO determining conversion capacity per cycle. Each level doubles the previous: Base_Capacity × 2^n. Octave 1 allows 1,000 Basic Unit conversions monthly; Octave 6 allows 32,000. Advancement reflects sustained contribution for individuals and market throughput for PTF businesses.",
   "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#octave-levels"
 },
-    "pth": {
+"pth": {
       "term": "Public Trust Housing",
       "class": "InstitutionalFramework",
       "description": "Community-owned housing creating collective residential equity through democratic resident governance and 'Acre Equity' wealth-building mechanism. Accepts CCO Basic Units for housing costs.",
@@ -72,6 +72,13 @@
         {"type": "depends_on", "target": "cco", "mechanism": "Integrates CCO circulation into residential infrastructure"}
       ],
       "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#public-trust-housing"
+    },
+    "acre_equity": {
+      "term": "Acre Equity",
+      "class": "WealthBuildingMechanism",
+      "description": "A wealth-building mechanism within PTH where residents accrue equity based on residency duration and community contribution rather than traditional mortgage debt. It decouples the right to housing from speculative market volatility.",
+      "related_concepts": ["Public Trust Housing", "SZH"],
+      "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#acre-equity"
     },
     "ptf": {
       "term": "Public Trust Foundations",
