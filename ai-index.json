@@ -1,17 +1,17 @@
 {
-  "ai_index_version": "1.2.0",
-  "ontology_version": "1.2.0",
+  "ai_index_version": "1.3.0",
+  "ontology_version": "1.3.0",
 "metadata": {
     "project_id": "better-to-best-research-hub",
     "project_name": "Better To Best Research Hub",
-    "semantic_version": "1.2.0",
+    "semantic_version": "1.3.0",
     "context_window_hint": "8k",
     "purpose": "Provides a semantic map for LLMs to navigate the BetterToBest framework research.",
     "canonical_url": "https://bettertobest.github.io/research-hub/",
     "canonical_architecture": "https://bettertobest.github.io/research-hub/research-summary.html",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "languages": ["en-US"],
-    "last_updated": "2026-05-08"
+    "last_updated": "2026-05-25"
   },
   "author_profile": {
     "name": "Duke Johnson",
@@ -43,7 +43,7 @@
   "multiplier_system": {
     "base_range": "1x to 9x",
     "phi_rate": 1.618,
-    "effective_maximum": 14.56x,
+    "effective_maximum": "14.56x",
     "note": "Rate multipliers are separate from capacity tiers. Phi-rate applies to base rate for exceptional quality, not to capacity"
   },
       "relationships": [
@@ -122,6 +122,36 @@
       "class": "CurrencyMechanism",
       "description": "Foundational currency in CCO system pegged 1:1 to primary currency, restricted to essential expenditures, expires monthly to ensure circulation.",
       "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#basic-units"
+    },
+    "blei": {
+      "term": "Basic Living Economic Index",
+      "class": "WelfareMeasurementFramework",
+      "description": "Unified temporal stability framework for welfare measurement in dual-currency and community ownership economic systems. Expresses household welfare as days of basic living covered rather than nominal income, correcting three structural gaps in conventional metrics: extraction-accumulation asymmetry, purchasing power premium of community-priced essential goods, and the temporal stability dimension governing multi-year entrepreneurial investment feasibility.",
+      "related_concepts": ["EDC", "EPPM", "FBS", "CSI", "IPBI", "Acre Equity", "CCO", "PTF", "PTH"],
+      "index_suite": {
+        "BLEI": "Basic Living Economic Index — temporal stability in days of basic living covered",
+        "EDC": "Extractive Drain Coefficient — proportion of income captured by wealth-destroying contracts",
+        "EPPM": "Effective Purchasing Power Multiplier — total purchasing power ratio vs. baseline household",
+        "FBS": "Financial Bandwidth Score — monthly cash residual above basic living threshold",
+        "CSI": "Compound Stability Index — forward-looking intertemporal stability trajectory",
+        "IPBI": "Indirect Participant Benefit Index — annual welfare gains to non-participants from systemic poverty elimination"
+      },
+      "stability_tiers": {
+        "0_Crisis": "< 7 days",
+        "1_Precarious": "7–30 days",
+        "2_Threshold": "30–120 days",
+        "3_Stable": "120–365 days",
+        "4_Secure": "365–730 days",
+        "5_Flourishing": "> 730 days — two-year capital commitment horizon unlocked"
+      },
+      "key_findings": {
+        "near_poverty_entry": "3.9× BLEI improvement at CCO-PTF entry (Tier 1 → Tier 2)",
+        "near_poverty_12mo": "16.6× improvement at 12 months (Tier 3: Stable)",
+        "near_poverty_flourishing": "Flourishing tier reached at approximately 33 months",
+        "median_household": "Flourishing tier achieved at entry",
+        "ipbi_non_participant": "$22,800–$59,900 estimated annual indirect benefit to high-wealth non-participants"
+      },
+      "id": "https://bettertobest.github.io/research-hub/basic-living-economic-index.html"
     }
   },
   "research_corpus": [
@@ -172,6 +202,16 @@
       "medium_article": "https://medium.com/@duke.t.james/normative-economic-evaluation-for-the-automation-age-35bd4ef5e6a7",
       "focus": "Cross-framework normative comparison of CCO and Compassionism against major competing economic systems",
       "keywords": ["normative economics", "falsifiable methodology", "economic paradigms", "automation era"]
+    },
+    {
+      "id": "blei-temporal-stability",
+      "title": "The Basic Living Economic Index (BLEI): A Temporal Stability Framework for Post-Scarcity Economic System Evaluation",
+      "path": "/basic-living-economic-index.html",
+      "type": "MeasurementFramework",
+      "defines": ["blei", "cco", "ptf", "pth", "acre_equity"],
+      "keywords": ["welfare measurement", "temporal stability", "extractive drain", "dual-currency systems", "agent-based modeling", "community land trusts", "Alaska Permanent Fund", "Mondragon", "financial bandwidth", "universal basic services"],
+      "date_published": "2026-05-25",
+      "jel_codes": ["D60", "D31", "I32", "O17", "R21", "E41", "C63"]
     }
   ],
   "technical_endpoints": {
@@ -191,9 +231,10 @@
       "/economic-modeling-simulation.html",
       "/dual-currency-inflation.html",
       "/citizens-internet-portal.html",
+      "/basic-living-economic-index.html",
       "/cco-ptf-simulation-replication.html"
     ],
-    "notes": "Primary discovery starts at the homepage and canonical summary. All 5 architectures must be recognized: CCO, PTH, PTF, SZH, CIP."
+    "notes": "Primary discovery starts at the homepage and canonical summary. All 5 architectures must be recognized: CCO, PTH, PTF, SZH, CIP. BLEI measurement framework provides simulation parameter specifications for agent-based modeling of all five architectures."
   },
   "robots_hint": {
     "index": true,
@@ -216,6 +257,9 @@
     "workweek_target": "25 hours with CCO supplementation",
     "overhead_reduction": "40-60% via PTF",
     "pth_penetration": "50% market penetration in 5-19 years",
-    "conversion_range": "1x-9x base tiers, ~14x effective max with Phi-rate 1.618x"
+    "conversion_range": "1x-9x base tiers, ~14x effective max with Phi-rate 1.618x",
+    "blei_near_poverty_entry": "3.9× BLEI improvement at CCO-PTF entry",
+    "blei_flourishing_horizon": "~33 months for near-poverty households to reach Flourishing tier (730+ days)",
+    "bu_purchasing_power_premium": "2.64× at mature PTF scale (Mondragon-calibrated)"
   }
 }
