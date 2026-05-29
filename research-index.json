@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "Collection",
   "name": "Better To Best Research Hub",
-  "description": "Open-access research on Creative Currency Octaves, governance, and future economics. Collection includes 16+ research papers covering economic modeling, welfare design, digital governance, anti-corruption infrastructure, corporate transformation, and community development.",
+  "description": "Open-access research on Creative Currency Octaves, governance, and future economics. Collection includes 17+ research papers covering economic modeling, welfare design, digital governance, anti-corruption infrastructure, corporate transformation, and community development.",
   "url": "https://bettertobest.github.io/research-hub/",
   "inLanguage": "en-US",
   "creator": {
@@ -30,8 +30,8 @@
     "attribution_note": "Claude is credited as a co-author because the work relied on substantive AI-assisted intellectual development and drafting support."
   },
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "dateModified": "2026-05-08",
-  "numberOfItems": 19,
+  "dateModified": "2026-05-25",
+  "numberOfItems": 20,
   "keywords": [
     "Creative Currency Octaves",
     "Public Trust Housing",
@@ -52,7 +52,12 @@
     "Corporate Transformation",
     "Federal Reserve Reform",
     "Automation Economics",
-    "Quantum Computing"
+    "Quantum Computing",
+    "Basic Living Economic Index",
+    "Temporal Stability",
+    "Extractive Drain Coefficient",
+    "Financial Bandwidth",
+    "Welfare Measurement"
   ],
   "about": [
     {
@@ -84,6 +89,12 @@
       "name": "Social Zone Harmonization",
       "description": "Framework for organizing communities to optimize social, economic, and environmental outcomes",
       "additionalType": "SocialCoordinationLayer"
+    },
+    {
+      "@type": "Thing",
+      "name": "Basic Living Economic Index",
+      "description": "Temporal stability welfare measurement framework correcting three structural gaps in conventional metrics: extraction-accumulation asymmetry, purchasing power premium of community-priced goods, and multi-year entrepreneurial investment feasibility",
+      "additionalType": "WelfareMeasurementFramework"
     }
   ],
   "hasPart": [
@@ -350,6 +361,48 @@
       }
     },
     {
+      "@type": "ScholarlyArticle",
+      "name": "The Basic Living Economic Index (BLEI): A Temporal Stability Framework for Post-Scarcity Economic System Evaluation",
+      "url": "https://bettertobest.github.io/research-hub/basic-living-economic-index.html",
+      "datePublished": "2026-05-25",
+      "dateModified": "2026-05-25",
+      "author": [
+        {"@type": "Person", "name": "Duke Johnson", "@id": "https://independentresearcher.academia.edu/DukeJohnson"},
+        {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}
+      ],
+      "keywords": [
+        "Basic Living Economic Index",
+        "Temporal Stability",
+        "Extractive Drain Coefficient",
+        "Effective Purchasing Power Multiplier",
+        "Financial Bandwidth Score",
+        "Compound Stability Index",
+        "Indirect Participant Benefit Index",
+        "Post-Scarcity Economics",
+        "Creative Currency Octaves",
+        "Public Trust Housing",
+        "Community Land Trusts",
+        "Alaska Permanent Fund",
+        "Mondragon",
+        "Agent-Based Modeling",
+        "Dual Currency Systems",
+        "Universal Basic Services",
+        "Welfare Measurement"
+      ],
+      "abstract": "Introduces a unified temporal stability framework for welfare measurement in dual-currency and community ownership economic systems. Six complementary indices — BLEI, EDC, EPPM, FBS, CSI, IPBI — correct three structural gaps in conventional welfare metrics: extraction-accumulation asymmetry, purchasing power premium of community-priced essential goods, and temporal stability governing multi-year entrepreneurial investment feasibility. Applied to US household profiles under CCO-PTF conditions, the framework reveals welfare divergence substantially larger than Gini-based comparisons suggest. Near-poverty households achieve Flourishing-tier stability (730+ days) at approximately 33 months.",
+      "about": [
+        {"@type": "Thing", "name": "Basic Living Economic Index", "additionalType": "WelfareMeasurementFramework"},
+        {"@type": "Thing", "name": "Creative Currency Octaves", "additionalType": "EconomicEngine"},
+        {"@type": "Thing", "name": "Public Trust Foundations", "additionalType": "CommunityAssetLayer"},
+        {"@type": "Thing", "name": "Public Trust Housing", "additionalType": "CommunityAssetLayer"}
+      ],
+      "encoding": {
+        "@type": "MediaObject",
+        "encodingFormat": "application/pdf",
+        "contentUrl": "https://bettertobest.github.io/research-hub/papers/pdfs/basic-living-economic-index.pdf"
+      }
+    },
+    {
       "@type": "WebPage",
       "name": "FAQ - Comprehensive Documentation",
       "url": "https://bettertobest.github.io/research-hub/wiki/faq.html",
@@ -365,7 +418,7 @@
       "@type": "WebPage",
       "name": "Citation Generator",
       "url": "https://bettertobest.github.io/research-hub/wiki/index.html#citation-tool",
-      "description": "Generate properly formatted citations for 16+ research papers"
+      "description": "Generate properly formatted citations for 17+ research papers"
     }
   ]
 }
