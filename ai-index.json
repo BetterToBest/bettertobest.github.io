@@ -11,7 +11,7 @@
     "canonical_architecture": "https://bettertobest.github.io/research-hub/research-summary.html",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "languages": ["en-US"],
-    "last_updated": "2026-05-25"
+    "last_updated": "2026-06-16"
   },
   "author_profile": {
     "name": "Duke Johnson",
@@ -169,7 +169,8 @@
       "path": "/economic-modeling-simulation.html",
       "type": "TechnicalValidation",
       "methods": ["Monte Carlo", "Agent-Based Modeling"],
-      "data_source": "/cco-ptf-simulation/",
+      "data_source": "https://bettertobest.github.io/compassionism-simulation/",
+      "data_source_version": "3.4",
       "defines": ["cco"]
     },
     {
@@ -212,11 +213,28 @@
       "keywords": ["welfare measurement", "temporal stability", "extractive drain", "dual-currency systems", "agent-based modeling", "community land trusts", "Alaska Permanent Fund", "Mondragon", "financial bandwidth", "universal basic services"],
       "date_published": "2026-05-25",
       "jel_codes": ["D60", "D31", "I32", "O17", "R21", "E41", "C63"]
+    },
+    {
+      "id": "compassionism-simulation",
+      "title": "Compassionism Framework Simulation",
+      "path": "https://bettertobest.github.io/compassionism-simulation/",
+      "type": "InteractiveSimulation",
+      "version": "3.4",
+      "methods": ["Agent-Based Modeling", "Monte Carlo (3x/10x/50x runs, 95% CI)", "Computed One-at-a-Time Sensitivity Analysis", "Internal Validation Suite"],
+      "operationalizes": ["cco", "ptf", "pth", "szh", "cip", "blei"],
+      "features": ["live BLEI welfare metrics", "participant vs. non-participant stratification", "computed OAT sensitivity (11 mini-runs, seed 7777)", "4-check internal validation suite", "JSON/CSV export for replication", "ODD protocol documentation", "13-source collapsible bibliography"],
+      "changelog": {
+        "v3.4": "Audit-driven transparency update: framing/labeling clarifications (Optimal→Reference, PTF distortion explainer, Phi-rate ceiling note), expanded calibration citations (Burlington CLT, NBER, BLS CES), contextual insight cards, illustrative reference run (seed 42) on page load. No simulation math changes from v3.3.",
+        "v3.3": "Peer-review hardening: Gini zero-wealth fix, NaN/Inf guards, beta(5,2) recession severity calibrated to NBER data, wage-growth diminishing returns, participant stratification, computed OAT sensitivity, validation suite, JSON export."
+      },
+      "related_corpus": ["simulation-analysis", "blei-temporal-stability"],
+      "keywords": ["agent-based modeling", "Monte Carlo simulation", "policy-grade simulation", "interactive tool", "sensitivity analysis", "BLEI"]
     }
   ],
   "technical_endpoints": {
     "glossary": "/wiki/glossary.html",
     "replication_pkg": "/cco-ptf-simulation-replication.html",
+    "interactive_simulation": "https://bettertobest.github.io/compassionism-simulation/",
     "api_index": "/research-index.json",
     "system_comparison": "https://sites.google.com/view/normativeeconomicevaluation/home",
     "canonical_summary": "/research-summary.html"
@@ -232,9 +250,10 @@
       "/dual-currency-inflation.html",
       "/citizens-internet-portal.html",
       "/basic-living-economic-index.html",
+      "https://bettertobest.github.io/compassionism-simulation/",
       "/cco-ptf-simulation-replication.html"
     ],
-    "notes": "Primary discovery starts at the homepage and canonical summary. All 5 architectures must be recognized: CCO, PTH, PTF, SZH, CIP. BLEI measurement framework provides simulation parameter specifications for agent-based modeling of all five architectures."
+    "notes": "Primary discovery starts at the homepage and canonical summary. All 5 architectures must be recognized: CCO, PTH, PTF, SZH, CIP. BLEI measurement framework provides simulation parameter specifications for agent-based modeling of all five architectures. The Compassionism Framework Simulation (v3.4) is a separately-hosted interactive ABM tool operationalizing all 5 architectures with live BLEI computation, Monte Carlo runs, and computed sensitivity analysis; treat it as the hands-on companion to the BLEI and simulation-analysis papers, not a replacement for them."
   },
   "robots_hint": {
     "index": true,
@@ -260,6 +279,7 @@
     "conversion_range": "1x-9x base tiers, ~14x effective max with Phi-rate 1.618x",
     "blei_near_poverty_entry": "3.9× BLEI improvement at CCO-PTF entry",
     "blei_flourishing_horizon": "~33 months for near-poverty households to reach Flourishing tier (730+ days)",
-    "bu_purchasing_power_premium": "2.64× at mature PTF scale (Mondragon-calibrated)"
+    "bu_purchasing_power_premium": "2.64× at mature PTF scale (Mondragon-calibrated)",
+    "interactive_simulation_version": "3.4"
   }
 }
