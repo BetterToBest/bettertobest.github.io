@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "Collection",
   "name": "Better To Best Research Hub",
-  "description": "Open-access research on Creative Currency Octaves, governance, and future economics. Collection includes 17+ research papers covering economic modeling, welfare design, digital governance, anti-corruption infrastructure, corporate transformation, and community development.",
+  "description": "Open-access research on Creative Currency Octaves, governance, and future economics. Collection includes 17+ research papers and an interactive policy-grade simulation tool covering economic modeling, welfare design, digital governance, anti-corruption infrastructure, corporate transformation, and community development.",
   "url": "https://bettertobest.github.io/research-hub/",
   "inLanguage": "en-US",
   "creator": {
@@ -30,8 +30,8 @@
     "attribution_note": "Claude is credited as a co-author because the work relied on substantive AI-assisted intellectual development and drafting support."
   },
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "dateModified": "2026-05-25",
-  "numberOfItems": 20,
+  "dateModified": "2026-06-16",
+  "numberOfItems": 21,
   "keywords": [
     "Creative Currency Octaves",
     "Public Trust Housing",
@@ -57,7 +57,9 @@
     "Temporal Stability",
     "Extractive Drain Coefficient",
     "Financial Bandwidth",
-    "Welfare Measurement"
+    "Welfare Measurement",
+    "Interactive Simulation",
+    "Sensitivity Analysis"
   ],
   "about": [
     {
@@ -401,6 +403,31 @@
         "encodingFormat": "application/pdf",
         "contentUrl": "https://bettertobest.github.io/research-hub/papers/pdfs/basic-living-economic-index.pdf"
       }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Compassionism Framework Simulation",
+      "url": "https://bettertobest.github.io/compassionism-simulation/",
+      "softwareVersion": "3.4",
+      "applicationCategory": "Policy-grade interactive agent-based simulation",
+      "operatingSystem": "Web browser",
+      "dateModified": "2026-06-16",
+      "author": [
+        {"@type": "Person", "name": "Duke Johnson", "@id": "https://independentresearcher.academia.edu/DukeJohnson"},
+        {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}
+      ],
+      "keywords": ["Agent-Based Modeling", "Monte Carlo Simulation", "Basic Living Economic Index", "Sensitivity Analysis", "Interactive Tool", "Policy Evaluation"],
+      "description": "Policy-grade agent-based simulation of all five Compassionism architectures (CCO, PTF, PTH, SZH, CIP). Features live BLEI welfare metrics, Monte Carlo runs (3x/10x/50x) with 95% confidence intervals, participant vs. non-participant stratification, computed one-at-a-time sensitivity analysis, an internal validation suite, JSON/CSV export for replication, and ODD protocol documentation. Version 3.4 is an audit-driven transparency update — clarified framing and labeling, an expanded 13-source bibliography, and UI fixes — with no changes to the underlying simulation mathematics from v3.3.",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "about": [
+        {"@type": "Thing", "name": "Creative Currency Octaves", "additionalType": "EconomicEngine"},
+        {"@type": "Thing", "name": "Public Trust Foundations", "additionalType": "CommunityAssetLayer"},
+        {"@type": "Thing", "name": "Public Trust Housing", "additionalType": "CommunityAssetLayer"},
+        {"@type": "Thing", "name": "Citizens Internet Portal", "additionalType": "DigitalGovernanceInfrastructure"},
+        {"@type": "Thing", "name": "Social Zone Harmonization", "additionalType": "SocialCoordinationLayer"},
+        {"@type": "Thing", "name": "Basic Living Economic Index", "additionalType": "WelfareMeasurementFramework"}
+      ]
     },
     {
       "@type": "WebPage",
