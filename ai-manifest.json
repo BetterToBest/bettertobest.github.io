@@ -1,15 +1,482 @@
 {
-  "name": "BetterToBest Research Hub",
-  "description": "Open-access research on CCO, PTF, PTH, SZH, CIP, and integrated economic-democratic frameworks.",
-  "primary_index": "https://bettertobest.github.io/ai-index.json",
-  "secondary_index": "https://bettertobest.github.io/research-index.json",
-  "llms_index": "https://bettertobest.github.io/llms.txt",
-  "sitemap": "https://bettertobest.github.io/sitemap.xml",
-  "homepage": "https://bettertobest.github.io/research-hub/",
-  "papers_index": "https://bettertobest.github.io/research-hub/papers/",
-  "wiki": "https://bettertobest.github.io/research-hub/wiki/",
-  "public_explainer": "https://bettertobest.github.io/research-hub/new-frame-and-lens.html",
-  "simulation": "https://bettertobest.github.io/compassionism-simulation/",
-  "simulation_framework": "https://bettertobest.github.io/research-hub/cco-ptf-simulation-replication.html",
-  "license": "https://creativecommons.org/licenses/by/4.0/"
+  "ai_index_version": "1.3.0",
+  "ontology_version": "1.3.0",
+  "metadata": {
+    "project_id": "better-to-best-research-hub",
+    "project_name": "Better To Best Research Hub",
+    "semantic_version": "1.3.0",
+    "context_window_hint": "8k",
+    "purpose": "Provides a semantic map for LLMs to navigate the BetterToBest framework research.",
+    "canonical_url": "https://bettertobest.github.io/research-hub/",
+    "canonical_architecture": "https://bettertobest.github.io/research-hub/research-summary.html",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "languages": [
+      "en-US"
+    ],
+    "last_updated": "2026-07-07"
+  },
+  "author_profile": {
+    "name": "Duke Johnson",
+    "role": "Principal Investigator",
+    "contact": "Duke.T.James@gmail.com",
+    "social": {
+      "bluesky": "https://authordukejohnson.bsky.social",
+      "academia": "https://independentresearcher.academia.edu/DukeJohnson",
+      "twitter": "https://x.com/Author_Duke_J"
+    }
+  },
+  "ontology": {
+    "cco": {
+      "term": "Creative Currency Octaves",
+      "class": "EconomicFramework",
+      "description": "Dual-currency system where citizens opt-in to receive 'Basic Units' for essentials that expire monthly. 'Octaves' are progressive advancement tiers determining conversion capacity per cycle: Base_Capacity × 2^n. For individuals, advancement reflects sustained contribution, skill development, and community engagement. For PTF businesses, capacity tracks market throughput. Conversion rate multipliers span 1x–9x base tiers. Phi-rate (1.618x) may apply for exceptional quality, yielding ~14x effective rate maximum.",
+      "related_concepts": [
+        "Basic Units",
+        "Octave Levels",
+        "Octave Capacity",
+        "Phi-Rate",
+        "Creative Collectives"
+      ],
+      "capacity_system": {
+        "formula": "Base_Capacity × 2^n",
+        "example_base": "1,000 Basic Units/month at Octave 1",
+        "progression": "Octave 1: 1,000; Octave 2: 2,000; Octave 3: 4,000; Octave 5: 16,000; Octave 6: 32,000",
+        "advancement_criteria": {
+          "individuals": "Sustained contribution, community engagement, skill development, long-term commitment",
+          "ptf_businesses": "Market throughput and productive exchange facilitated",
+          "creators": "Public recognition of achievement and community standing"
+        }
+      },
+      "multiplier_system": {
+        "base_range": "1x to 9x",
+        "phi_rate": 1.618,
+        "effective_maximum": "14.56x",
+        "note": "Rate multipliers are separate from capacity tiers. Phi-rate applies to base rate for exceptional quality, not to capacity"
+      },
+      "relationships": [
+        {
+          "type": "funds",
+          "target": "ptf",
+          "mechanism": "Expiring Basic Units flow into PTF-operated essential goods markets"
+        },
+        {
+          "type": "enables",
+          "target": "pth",
+          "mechanism": "Basic Units accepted for housing costs"
+        },
+        {
+          "type": "anchors",
+          "target": "creative_collectives",
+          "mechanism": "Octave conversion tier system provides structure for collectives"
+        }
+      ],
+      "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#creative-currency-octaves"
+    },
+    "phi_rate": {
+      "term": "Phi-Rate",
+      "class": "CurrencyMechanism",
+      "description": "Qualitative multiplier of 1.618x applied to base octave tier for works of exceptional quality, beauty, or harmonic value in CCO conversion. Combined with 9x base tier yields 14.56x effective maximum.",
+      "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#phi-rate"
+    },
+    "octave_levels": {
+      "term": "Octave Levels",
+      "class": "CapacityMechanism",
+      "description": "Progressive tiers in CCO determining conversion capacity per cycle. Each level doubles the previous: Base_Capacity × 2^n. Octave 1 allows 1,000 Basic Unit conversions monthly; Octave 6 allows 32,000. Advancement reflects sustained contribution for individuals and market throughput for PTF businesses.",
+      "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#octave-levels"
+    },
+    "pth": {
+      "term": "Public Trust Housing",
+      "class": "InstitutionalFramework",
+      "description": "Community-owned housing creating collective residential equity through democratic resident governance and 'Acre Equity' wealth-building mechanism. Accepts CCO Basic Units for housing costs.",
+      "related_concepts": [
+        "Acre Equity",
+        "Democratic Governance",
+        "CCO"
+      ],
+      "relationships": [
+        {
+          "type": "depends_on",
+          "target": "cco",
+          "mechanism": "Integrates CCO circulation into residential infrastructure"
+        }
+      ],
+      "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#public-trust-housing"
+    },
+    "acre_equity": {
+      "term": "Acre Equity",
+      "class": "WealthBuildingMechanism",
+      "description": "A wealth-building mechanism within PTH where residents accrue equity based on residency duration and community contribution rather than traditional mortgage debt. It decouples the right to housing from speculative market volatility.",
+      "related_concepts": [
+        "Public Trust Housing",
+        "SZH"
+      ],
+      "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#acre-equity"
+    },
+    "ptf": {
+      "term": "Public Trust Foundations",
+      "class": "InstitutionalFramework",
+      "description": "Community-owned businesses providing foundational goods and services — grocers, utilities, childcare — operated not-for-profit. Accepts CCO Basic Units and reduces collective overhead 40–60%.",
+      "related_concepts": [
+        "Basic Units",
+        "CCO",
+        "Community Ownership"
+      ],
+      "relationships": [
+        {
+          "type": "depends_on",
+          "target": "cco",
+          "mechanism": "Receives funding from CCO currency flows"
+        },
+        {
+          "type": "enhances",
+          "target": "cco",
+          "mechanism": "Provides stable merchant network for Basic Unit redemption"
+        }
+      ],
+      "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#public-trust-foundations"
+    },
+    "szh": {
+      "term": "Social Zone Harmonization",
+      "class": "SpatialFramework",
+      "description": "Framework for organizing communities and regions to optimize social, economic, and environmental outcomes through coordinated planning while maintaining local autonomy.",
+      "related_concepts": [
+        "Zoning",
+        "Community Planning",
+        "PTF",
+        "PTH"
+      ],
+      "relationships": [
+        {
+          "type": "organizes",
+          "target": "ptf",
+          "mechanism": "Defines geographic zone boundaries and service catchments for PTF businesses"
+        },
+        {
+          "type": "stabilizes",
+          "target": "pth",
+          "mechanism": "Creates community coherence required for PTH democratic governance"
+        }
+      ],
+      "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#social-zone-harmonization"
+    },
+    "cip": {
+      "term": "Citizens Internet Portal",
+      "class": "DigitalGovernanceInfrastructure",
+      "description": "Privacy-first digital infrastructure platform enabling democratic participation, transparent governance, and community-controlled economic systems. Manages CCO operations and PTH/PTF democratic voting.",
+      "related_concepts": [
+        "Quadratic Voting",
+        "Liquid Democracy",
+        "CCO",
+        "PTH",
+        "PTF",
+        "SZH"
+      ],
+      "relationships": [
+        {
+          "type": "governs",
+          "target": "cco",
+          "mechanism": "Manages Octave conversion system, merit assessment, distribution"
+        },
+        {
+          "type": "governs",
+          "target": "pth",
+          "mechanism": "Provides digital voting infrastructure for resident governance"
+        },
+        {
+          "type": "governs",
+          "target": "ptf",
+          "mechanism": "Manages democratic oversight and transparent budgeting"
+        },
+        {
+          "type": "coordinates",
+          "target": "szh",
+          "mechanism": "Enables zone formation through public surveys and voting"
+        }
+      ],
+      "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#citizens-internet-portal"
+    },
+    "basic_units": {
+      "term": "Basic Units",
+      "class": "CurrencyMechanism",
+      "description": "Foundational currency in CCO system pegged 1:1 to primary currency, restricted to essential expenditures, expires monthly to ensure circulation.",
+      "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#basic-units"
+    },
+    "blei": {
+      "term": "Basic Living Economic Index",
+      "class": "WelfareMeasurementFramework",
+      "description": "Unified temporal stability framework for welfare measurement in dual-currency and community ownership economic systems. Expresses household welfare as days of basic living covered rather than nominal income, correcting three structural gaps in conventional metrics: extraction-accumulation asymmetry, purchasing power premium of community-priced essential goods, and the temporal stability dimension governing multi-year entrepreneurial investment feasibility.",
+      "related_concepts": [
+        "EDC",
+        "EPPM",
+        "FBS",
+        "CSI",
+        "IPBI",
+        "Acre Equity",
+        "CCO",
+        "PTF",
+        "PTH"
+      ],
+      "index_suite": {
+        "BLEI": "Basic Living Economic Index — temporal stability in days of basic living covered",
+        "EDC": "Extractive Drain Coefficient — proportion of income captured by wealth-destroying contracts",
+        "EPPM": "Effective Purchasing Power Multiplier — total purchasing power ratio vs. baseline household",
+        "FBS": "Financial Bandwidth Score — monthly cash residual above basic living threshold",
+        "CSI": "Compound Stability Index — forward-looking intertemporal stability trajectory",
+        "IPBI": "Indirect Participant Benefit Index — annual welfare gains to non-participants from systemic poverty elimination"
+      },
+      "stability_tiers": {
+        "0_Crisis": "< 7 days",
+        "1_Precarious": "7–30 days",
+        "2_Threshold": "30–120 days",
+        "3_Stable": "120–365 days",
+        "4_Secure": "365–730 days",
+        "5_Flourishing": "> 730 days — two-year capital commitment horizon unlocked"
+      },
+      "key_findings": {
+        "near_poverty_entry": "3.9× BLEI improvement at CCO-PTF entry (Tier 1 → Tier 2)",
+        "near_poverty_12mo": "16.6× improvement at 12 months (Tier 3: Stable)",
+        "near_poverty_flourishing": "Flourishing tier reached at approximately 33 months",
+        "median_household": "Flourishing tier achieved at entry",
+        "ipbi_non_participant": "$22,800–$59,900 estimated annual indirect benefit to high-wealth non-participants"
+      },
+      "id": "https://bettertobest.github.io/research-hub/basic-living-economic-index.html"
+    }
+  },
+  "research_corpus": [
+    {
+      "id": "canonical-framework",
+      "title": "Creative Currency Octaves and Public Trust Foundations: An Integrated Framework",
+      "path": "https://bettertobest.github.io/research-hub/cco-ptf-integrated-framework.html",
+      "type": "FoundationalPaper",
+      "defines": [
+        "cco",
+        "ptf",
+        "pth"
+      ],
+      "keywords": [
+        "dual-currency",
+        "post-scarcity",
+        "meritocracy",
+        "community-ownership"
+      ]
+    },
+    {
+      "id": "new-frame-and-lens",
+      "title": "A New Frame and Lens: Left, Right, and the Head Between Them",
+      "path": "https://bettertobest.github.io/research-hub/new-frame-and-lens.html",
+      "type": "PublicExplainer",
+      "operationalizes": [
+        "cco",
+        "ptf",
+        "pth",
+        "szh",
+        "cip"
+      ],
+      "focus": "Plain-language, general-audience reframing of fifteen US left/right political flashpoints (taxes, healthcare, immigration, abortion, gun rights, drug policy, education, climate, and more) through the Compassionism framework",
+      "keywords": [
+        "left-right political spectrum",
+        "bipartisan policy",
+        "public explainer",
+        "civic engagement",
+        "political polarization"
+      ],
+      "date_published": "2026-07-07"
+    },
+    {
+      "id": "simulation-analysis",
+      "title": "Economic Modeling and Simulation Analysis of CCO",
+      "path": "https://bettertobest.github.io/research-hub/economic-modeling-simulation.html",
+      "type": "TechnicalValidation",
+      "methods": [
+        "Monte Carlo",
+        "Agent-Based Modeling"
+      ],
+      "data_source": "https://bettertobest.github.io/compassionism-simulation/",
+      "data_source_version": "3.5",
+      "defines": [
+        "cco"
+      ]
+    },
+    {
+      "id": "monetary-stability",
+      "title": "Dual Currency Systems and Inflation",
+      "path": "https://bettertobest.github.io/research-hub/dual-currency-inflation.html",
+      "type": "TheoreticalAnalysis",
+      "focus": "Macroeconomic Stability",
+      "defines": [
+        "cco"
+      ]
+    },
+    {
+      "id": "cip-governance",
+      "title": "Citizens Internet Portal: Structural Incorruptibility Through Distributed Democratic Architecture",
+      "path": "https://bettertobest.github.io/research-hub/citizens-internet-portal.html",
+      "type": "GovernanceFramework",
+      "defines": [
+        "cip",
+        "cco",
+        "pth",
+        "ptf",
+        "szh"
+      ]
+    },
+    {
+      "id": "pth-housing",
+      "title": "Transforming the US Real Estate Market Through Public Trust Housing",
+      "path": "https://bettertobest.github.io/research-hub/us-real-estate-transformation.html",
+      "type": "SectorApplication",
+      "defines": [
+        "pth",
+        "acre_equity"
+      ]
+    },
+    {
+      "id": "normative-evaluation",
+      "title": "Normative Economic Evaluation for the Automation Age",
+      "path": "https://sites.google.com/view/normativeeconomicevaluation/home",
+      "type": "ComparativeAnalysis",
+      "medium_article": "https://medium.com/@duke.t.james/normative-economic-evaluation-for-the-automation-age-35bd4ef5e6a7",
+      "focus": "Cross-framework normative comparison of CCO and Compassionism against major competing economic systems",
+      "keywords": [
+        "normative economics",
+        "falsifiable methodology",
+        "economic paradigms",
+        "automation era"
+      ]
+    },
+    {
+      "id": "blei-temporal-stability",
+      "title": "The Basic Living Economic Index (BLEI): A Temporal Stability Framework for Post-Scarcity Economic System Evaluation",
+      "path": "https://bettertobest.github.io/research-hub/basic-living-economic-index.html",
+      "type": "MeasurementFramework",
+      "defines": [
+        "blei",
+        "cco",
+        "ptf",
+        "pth",
+        "acre_equity"
+      ],
+      "keywords": [
+        "welfare measurement",
+        "temporal stability",
+        "extractive drain",
+        "dual-currency systems",
+        "agent-based modeling",
+        "community land trusts",
+        "Alaska Permanent Fund",
+        "Mondragon",
+        "financial bandwidth",
+        "universal basic services"
+      ],
+      "date_published": "2026-05-25",
+      "jel_codes": [
+        "D60",
+        "D31",
+        "I32",
+        "O17",
+        "R21",
+        "E41",
+        "C63"
+      ]
+    },
+    {
+      "id": "compassionism-simulation",
+      "title": "Compassionism Framework Simulation",
+      "path": "https://bettertobest.github.io/compassionism-simulation/",
+      "type": "InteractiveSimulation",
+      "version": "3.5",
+      "methods": [
+        "Agent-Based Modeling",
+        "Monte Carlo (3x/10x/50x runs, 95% CI)",
+        "Computed One-at-a-Time Sensitivity Analysis",
+        "Internal Validation Suite"
+      ],
+      "operationalizes": [
+        "cco",
+        "ptf",
+        "pth",
+        "szh",
+        "cip",
+        "blei"
+      ],
+      "features": [
+        "live BLEI welfare metrics",
+        "participant vs. non-participant stratification",
+        "computed OAT sensitivity (11 mini-runs, seed 7777)",
+        "4-check internal validation suite",
+        "JSON/CSV export for replication",
+        "ODD protocol documentation",
+        "13-source collapsible bibliography"
+      ],
+      "changelog": {
+        "v3.5": "Audit-driven version/citation consolidation: fixed a version-string drift bug (exports self-reported v3.3 while the UI showed v3.4), introduced a single META object as the source of truth for version/DOI/citation across all exports, added the archival DOI (10.17605/OSF.IO/QWTE2) in four places (schema.org metadata, footer, References panel, both CSV/JSON export formats), renamed the internal preset key optimal→reference to match existing UI terminology, added a live effective-max-multiplier UI indicator under the Quality Multiplier Ceiling slider, enforced seed-input range validation, and documented the EDC calibration constants as scenario-calibrated targets rather than derived values. No simulation math changes from v3.4 — regression baseline (seed 42, Full Integration, 20yr) produces identical output.",
+        "v3.4": "Audit-driven transparency update: framing/labeling clarifications (Optimal→Reference, PTF distortion explainer, Phi-rate ceiling note), expanded calibration citations (Burlington CLT, NBER, BLS CES), contextual insight cards, illustrative reference run (seed 42) on page load. No simulation math changes from v3.3.",
+        "v3.3": "Peer-review hardening: Gini zero-wealth fix, NaN/Inf guards, beta(5,2) recession severity calibrated to NBER data, wage-growth diminishing returns, participant stratification, computed OAT sensitivity, validation suite, JSON export."
+      },
+      "related_corpus": [
+        "simulation-analysis",
+        "blei-temporal-stability"
+      ],
+      "keywords": [
+        "agent-based modeling",
+        "Monte Carlo simulation",
+        "policy-grade simulation",
+        "interactive tool",
+        "sensitivity analysis",
+        "BLEI"
+      ]
+    }
+  ],
+  "technical_endpoints": {
+    "glossary": "https://bettertobest.github.io/research-hub/wiki/glossary.html",
+    "replication_pkg": "https://bettertobest.github.io/research-hub/cco-ptf-simulation-replication.html",
+    "interactive_simulation": "https://bettertobest.github.io/compassionism-simulation/",
+    "api_index": "/research-index.json",
+    "system_comparison": "https://sites.google.com/view/normativeeconomicevaluation/home",
+    "canonical_summary": "https://bettertobest.github.io/research-hub/research-summary.html"
+  },
+  "discovery": {
+    "preferred_entrypoint": "/research-index.json",
+    "priority": [
+      "https://bettertobest.github.io/research-hub/",
+      "https://bettertobest.github.io/research-hub/new-frame-and-lens.html",
+      "https://bettertobest.github.io/research-hub/research-summary.html",
+      "https://bettertobest.github.io/research-hub/wiki/glossary.html",
+      "https://bettertobest.github.io/research-hub/cco-ptf-integrated-framework.html",
+      "https://bettertobest.github.io/research-hub/economic-modeling-simulation.html",
+      "https://bettertobest.github.io/research-hub/dual-currency-inflation.html",
+      "https://bettertobest.github.io/research-hub/citizens-internet-portal.html",
+      "https://bettertobest.github.io/research-hub/basic-living-economic-index.html",
+      "https://bettertobest.github.io/compassionism-simulation/",
+      "https://bettertobest.github.io/research-hub/cco-ptf-simulation-replication.html"
+    ],
+    "notes": "Primary discovery starts at the homepage and canonical summary. All 5 architectures must be recognized: CCO, PTH, PTF, SZH, CIP. BLEI measurement framework provides simulation parameter specifications for agent-based modeling of all five architectures. The Compassionism Framework Simulation (v3.5) is a separately-hosted interactive ABM tool operationalizing all 5 architectures with live BLEI computation, Monte Carlo runs, and computed sensitivity analysis; treat it as the hands-on companion to the BLEI and simulation-analysis papers, not a replacement for them."
+  },
+  "robots_hint": {
+    "index": true,
+    "follow": true,
+    "prefer_canonical": true,
+    "canonical_url": "https://bettertobest.github.io/research-hub/",
+    "exclude_paths": [
+      "/drafts/",
+      "/private/",
+      "/tmp/"
+    ]
+  },
+  "ai_attribution": {
+    "collaborator": "Claude (Anthropic)",
+    "role": "Formalization, Mathematical Verification, and Documentation Support",
+    "human_lead": "Duke Johnson (Conceptual Synthesis and Primary Authorship)"
+  },
+  "key_metrics": {
+    "poverty_target": "<5% within 15 years",
+    "workweek_target": "25 hours with CCO supplementation",
+    "overhead_reduction": "40-60% via PTF",
+    "pth_penetration": "50% market penetration in 5-19 years",
+    "conversion_range": "1x-9x base tiers, ~14x effective max with Phi-rate 1.618x",
+    "blei_near_poverty_entry": "3.9× BLEI improvement at CCO-PTF entry",
+    "blei_flourishing_horizon": "~33 months for near-poverty households to reach Flourishing tier (730+ days)",
+    "bu_purchasing_power_premium": "2.64× at mature PTF scale (Mondragon-calibrated)",
+    "interactive_simulation_version": "3.5"
+  }
 }
