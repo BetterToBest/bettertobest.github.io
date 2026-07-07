@@ -30,8 +30,8 @@
     "attribution_note": "Claude is credited as a co-author because the work relied on substantive AI-assisted intellectual development and drafting support."
   },
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "dateModified": "2026-06-16",
-  "numberOfItems": 21,
+  "dateModified": "2026-07-07",
+  "numberOfItems": 22,
   "keywords": [
     "Creative Currency Octaves",
     "Public Trust Housing",
@@ -440,6 +440,12 @@
       "name": "Glossary of Terms",
       "url": "https://bettertobest.github.io/research-hub/wiki/glossary.html",
       "description": "Definitions of key concepts and terminology"
+    },
+    {
+      "@type": "WebPage",
+      "name": "A New Frame and Lens: Left, Right, and the Head Between Them",
+      "url": "https://bettertobest.github.io/research-hub/new-frame-and-lens.html",
+      "description": "Plain-language explainer reframing fifteen US left/right political flashpoints — taxes, healthcare, immigration, abortion, gun rights, and more — through the Compassionism framework's dominant-left / dominant-right / head-synthesis lens."
     },
     {
       "@type": "WebPage",
