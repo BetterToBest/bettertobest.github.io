@@ -3,6 +3,7 @@
 
 # Canonical architecture and primary source of truth
 Canonical: https://bettertobest.github.io/research-hub/research-summary.html
+Public Explainer: https://bettertobest.github.io/research-hub/new-frame-and-lens.html
 
 # Machine-readable indexes
 Ontology: https://bettertobest.github.io/ai-index.json
