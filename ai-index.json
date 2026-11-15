@@ -195,6 +195,14 @@
       ],
       "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#citizens-internet-portal"
     },
+    "oeias": {
+      "term": "Optional Equitable Integrated Assurance Systems",
+      "class": "UmbrellaConcept",
+      "abbreviation": "OEIAS",
+      "description": "Umbrella name for the framework's five architectures taken together, with X-cents: CCO, PTF, PTH, SZH and CIP. A name only: it adds no mechanism and no result.",
+      "related_concepts": ["CCO", "PTF", "PTH", "SZH", "CIP"],
+      "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#oeias"
+    },
     "basic_units": {
       "term": "Basic Units",
       "class": "CurrencyMechanism",
