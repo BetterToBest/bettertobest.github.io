@@ -13,7 +13,7 @@
     "languages": [
       "en-US"
     ],
-    "last_updated": "2026-07-07"
+    "last_updated": "2026-11-16"
   },
   "author_profile": {
     "name": "Duke Johnson",
@@ -304,6 +304,20 @@
       "defines": [
         "cco"
       ]
+    },
+    {
+      "id": "us-policy-eras",
+      "title": "US Policy Eras and Stability, 1947-2025",
+      "path": "https://bettertobest.github.io/research-hub/us-policy-eras.html",
+      "type": "SimulationFindings",
+      "methods": [
+        "Preregistered descriptive panel (block bootstrap, Holm correction)",
+        "Agent-Based Modeling (model counterfactual: today's households under each era's settings)"
+      ],
+      "focus": "Whether earlier US policy eras (1947-1972, 1973-1983, 1984-2007) were steadier than 2008-2025, from the published record and from the Compassionism Simulation, with and without the programme. The record is mixed; the programme's effect keeps its direction in every era.",
+      "data_source": "https://bettertobest.github.io/research-hub/data/s75-us-eras.json",
+      "keywords": ["US economic history", "macroeconomic stability", "effective tax rates", "hospital ownership", "monetary policy rule", "basket poverty"],
+      "date_published": "2026-11-16"
     },
     {
       "id": "monetary-stability",
