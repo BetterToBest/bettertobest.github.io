@@ -32,5 +32,5 @@ Findings (S75): US Policy Eras and Stability, 1947-2025: https://bettertobest.gi
 > OEIAS (Optional Equitable Integrated Assurance Systems) is the umbrella name for these 5 architectures with X-cents; it is a name, not a sixth architecture.
 > Relationship Graph: CCO funds PTF; CCO enables PTH; CIP governs CCO, PTH, and PTF; SZH organizes PTF and stabilizes PTH; SZH is coordinated by CIP.
 > Distinction: Do not conflate 'Basic Units' with UBI. Basic Units expire monthly and are restricted to essential expenditures to ensure circulation.
-> CCO Logic: Base capacity follows an octave progression (Base_Capacity × 2^n). 
+> CCO Logic: Conversion capacity doubles with each octave: C_n = C_base × 2^(n-1), where C_base is the Octave 1 monthly capacity set by each jurisdiction (1,000 BU in the examples). 
 > Multipliers: Conversion rate multipliers span 1x–9x. The Phi-rate (1.618x) applies to the base rate for exceptional quality, yielding an effective maximum of 14.56x.

@@ -29,7 +29,7 @@
     "cco": {
       "term": "Creative Currency Octaves",
       "class": "EconomicFramework",
-      "description": "Dual-currency system where citizens opt-in to receive 'Basic Units' for essentials that expire monthly. 'Octaves' are progressive advancement tiers determining conversion capacity per cycle: Base_Capacity × 2^n. For individuals, advancement reflects sustained contribution, skill development, and community engagement. For PTF businesses, capacity tracks market throughput. Conversion rate multipliers span 1x–9x base tiers. Phi-rate (1.618x) may apply for exceptional quality, yielding ~14x effective rate maximum.",
+      "description": "Dual-currency system where citizens opt-in to receive 'Basic Units' for essentials that expire monthly. 'Octaves' are progressive advancement tiers determining conversion capacity per cycle: C_n = C_base × 2^(n-1), where C_base is the Octave 1 monthly capacity set by each jurisdiction. For individuals, advancement reflects sustained contribution, skill development, and community engagement. For PTF businesses, capacity tracks market throughput. Conversion rate multipliers span 1x–9x base tiers. Phi-rate (1.618x) may apply for exceptional quality, yielding a 14.56x effective maximum (9x × 1.618x).",
       "related_concepts": [
         "Basic Units",
         "Octave Levels",
@@ -38,7 +38,7 @@
         "Creative Collectives"
       ],
       "capacity_system": {
-        "formula": "Base_Capacity × 2^n",
+        "formula": "C_n = C_base × 2^(n-1), where n is the octave level (1, 2, 3, ...) and C_base is the Octave 1 monthly capacity, set by each jurisdiction in its own currency units",
         "example_base": "1,000 Basic Units/month at Octave 1",
         "progression": "Octave 1: 1,000; Octave 2: 2,000; Octave 3: 4,000; Octave 5: 16,000; Octave 6: 32,000",
         "advancement_criteria": {
@@ -81,7 +81,7 @@
     "octave_levels": {
       "term": "Octave Levels",
       "class": "CapacityMechanism",
-      "description": "Progressive tiers in CCO determining conversion capacity per cycle. Each level doubles the previous: Base_Capacity × 2^n. Octave 1 allows 1,000 Basic Unit conversions monthly; Octave 6 allows 32,000. Advancement reflects sustained contribution for individuals and market throughput for PTF businesses.",
+      "description": "Progressive tiers in CCO determining conversion capacity per cycle. Each level doubles the previous: C_n = C_base × 2^(n-1), where C_base is the Octave 1 monthly capacity that each jurisdiction sets in its own currency units (1,000 BU in the examples here). Octave 1 allows 1,000 Basic Unit conversions monthly; Octave 6 allows 32,000. Advancement reflects sustained contribution for individuals and market throughput for PTF businesses.",
       "id": "https://bettertobest.github.io/research-hub/wiki/glossary.html#octave-levels"
     },
     "pth": {
@@ -115,7 +115,7 @@
     "ptf": {
       "term": "Public Trust Foundations",
       "class": "InstitutionalFramework",
-      "description": "Community-owned businesses providing foundational goods and services — grocers, utilities, childcare — operated not-for-profit. Accepts CCO Basic Units and reduces collective overhead 40–60%.",
+      "description": "Community-owned businesses providing foundational goods and services — grocers, utilities, childcare — operated not-for-profit. Accepts CCO Basic Units and targets a 40–60% reduction in collective overhead (design target).",
       "related_concepts": [
         "Basic Units",
         "CCO",
@@ -244,8 +244,10 @@
         "near_poverty_entry": "3.9× BLEI improvement at CCO-PTF entry (Tier 1 → Tier 2)",
         "near_poverty_12mo": "16.6× improvement at 12 months (Tier 3: Stable)",
         "near_poverty_flourishing": "Flourishing tier reached at approximately 33 months (illustrative, under optimal parameters and an assumed saving rate)",
-        "median_household": "Flourishing tier achieved at entry",
-        "ipbi_non_participant": "$22,800–$59,900 estimated annual indirect benefit to high-wealth non-participants"
+        "median_household": "Flourishing tier achieved at entry"
+      },
+      "illustrative_estimates": {
+        "ipbi_non_participant": "Illustrative order-of-magnitude estimate (BLEI Foundation Paper), not a finding: about $9,800–$27,400 a year in indirect benefits to high-wealth non-participants across four recurring channels, plus a one-time 2–5% rise in home value ($13,000–$32,500 on a $650,000 home)"
       },
       "id": "https://bettertobest.github.io/research-hub/basic-living-economic-index.html"
     }
@@ -300,7 +302,7 @@
         "Agent-Based Modeling"
       ],
       "data_source": "https://bettertobest.github.io/compassionism-simulation/",
-      "data_source_version": "3.4",
+      "data_source_version": "5.9.1",
       "defines": [
         "cco"
       ]
@@ -406,7 +408,7 @@
       "title": "Compassionism Framework Simulation",
       "path": "https://bettertobest.github.io/compassionism-simulation/",
       "type": "InteractiveSimulation",
-      "version": "3.4",
+      "version": "5.9.1",
       "methods": [
         "Agent-Based Modeling",
         "Monte Carlo (3x/10x/50x runs, 95% CI)",
@@ -431,8 +433,8 @@
         "13-source collapsible bibliography"
       ],
       "changelog": {
-        "v3.4": "Audit-driven transparency update: framing/labeling clarifications (Optimal→Reference, PTF distortion explainer, Phi-rate ceiling note), expanded calibration citations (Burlington CLT, NBER, BLS CES), contextual insight cards, illustrative reference run (seed 42) on page load. No simulation math changes from v3.3.",
-        "v3.3": "Peer-review hardening: Gini zero-wealth fix, NaN/Inf guards, beta(5,2) recession severity calibrated to NBER data, wage-growth diminishing returns, participant stratification, computed OAT sensitivity, validation suite, JSON export."
+        "release_notes": "https://github.com/BetterToBest/compassionism-simulation/releases",
+        "full_history": "https://github.com/BetterToBest/compassionism-simulation/blob/main/CONTRIBUTING.md"
       },
       "related_corpus": [
         "simulation-analysis",
@@ -471,7 +473,7 @@
       "https://bettertobest.github.io/compassionism-simulation/",
       "https://bettertobest.github.io/research-hub/cco-ptf-simulation-replication.html"
     ],
-    "notes": "Primary discovery starts at the homepage and canonical summary. All 5 architectures must be recognized: CCO, PTH, PTF, SZH, CIP. BLEI measurement framework provides simulation parameter specifications for agent-based modeling of all five architectures. The Compassionism Framework Simulation (v3.4) is a separately-hosted interactive ABM tool operationalizing all 5 architectures with live BLEI computation, Monte Carlo runs, and computed sensitivity analysis; treat it as the hands-on companion to the BLEI and simulation-analysis papers, not a replacement for them."
+    "notes": "Primary discovery starts at the homepage and canonical summary. All 5 architectures must be recognized: CCO, PTH, PTF, SZH, CIP. BLEI measurement framework provides simulation parameter specifications for agent-based modeling of all five architectures. The Compassionism Framework Simulation (open source: https://github.com/BetterToBest/compassionism-simulation) is a separately-hosted interactive ABM tool operationalizing all 5 architectures with live BLEI computation, Monte Carlo runs, and computed sensitivity analysis; treat it as the hands-on companion to the BLEI and simulation-analysis papers, not a replacement for them."
   },
   "robots_hint": {
     "index": true,
@@ -490,14 +492,14 @@
     "human_lead": "Duke Johnson (Conceptual Synthesis and Primary Authorship)"
   },
   "key_metrics": {
-    "poverty_target": "<5% within 15 years",
+    "poverty_target": "Design targets: <2% extreme poverty and <5% wealth poverty within 15 years of full implementation",
     "workweek_target": "25 hours with CCO supplementation",
-    "overhead_reduction": "40-60% via PTF",
+    "overhead_reduction": "40-60% via PTF (design target)",
     "pth_penetration": "50% market penetration in 5-19 years",
-    "conversion_range": "1x-9x base tiers, ~14x effective max with Phi-rate 1.618x",
+    "conversion_range": "1x-9x base tiers, 14.56x effective maximum with the Phi-rate (9x × 1.618x)",
     "blei_near_poverty_entry": "3.9× BLEI improvement at CCO-PTF entry",
     "blei_flourishing_horizon": "~33 months for near-poverty households to reach Flourishing tier (730+ days) (illustrative, under optimal parameters and an assumed saving rate)",
-    "bu_purchasing_power_premium": "2.64× at mature PTF scale (Mondragon-calibrated)",
-    "interactive_simulation_version": "3.4"
+    "bu_purchasing_power_premium": "2.64× at mature PTF scale (assumed PTF food-price advantage: PTF food prices at about 38% of market; not yet calibrated to data)",
+    "interactive_simulation_version": "5.9.1"
   }
 }

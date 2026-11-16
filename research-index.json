@@ -355,7 +355,7 @@
         {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}
       ],
       "keywords": ["Corporate Transformation", "Federal Reserve Reform", "Work Structure Evolution", "Automation Impact", "Creator Collective Economics", "Monetary Policy", "Quantum Computing"],
-      "abstract": "Examines corporate structure transformation following CCO-PTF integration and Federal Reserve mandate reform. Key findings: 25-hour workweeks with CCO supplementation maintain productivity while reducing overhead 35-50%. Proposes shifting the Fed mandate to a human flourishing orientation enabling the full transition from fractional reserve to full creative reserve economics.",
+      "abstract": "Examines corporate structure transformation following CCO-PTF integration and Federal Reserve mandate reform. Design targets include a 25-hour standard workweek with Basic Unit supplementation and a 40-60% PTF overhead reduction. Proposes shifting the Fed mandate to a human flourishing orientation enabling the full transition from fractional reserve to full creative reserve economics.",
       "encoding": {
         "@type": "MediaObject",
         "encodingFormat": "application/pdf",
@@ -408,16 +408,16 @@
       "@type": "SoftwareApplication",
       "name": "Compassionism Framework Simulation",
       "url": "https://bettertobest.github.io/compassionism-simulation/",
-      "softwareVersion": "3.5",
+      "softwareVersion": "5.9.1",
       "applicationCategory": "Policy-grade interactive agent-based simulation",
       "operatingSystem": "Web browser",
-      "dateModified": "2026-07-07",
+      "dateModified": "2026-11-16",
       "author": [
         {"@type": "Person", "name": "Duke Johnson", "@id": "https://independentresearcher.academia.edu/DukeJohnson"},
         {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}
       ],
       "keywords": ["Agent-Based Modeling", "Monte Carlo Simulation", "Basic Living Economic Index", "Sensitivity Analysis", "Interactive Tool", "Policy Evaluation"],
-      "description": "Policy-grade agent-based simulation of all five Compassionism architectures (CCO, PTF, PTH, SZH, CIP). Features live BLEI welfare metrics, Monte Carlo runs (3x/10x/50x) with 95% confidence intervals, participant vs. non-participant stratification, computed one-at-a-time sensitivity analysis, an internal validation suite, JSON/CSV export for replication, and ODD protocol documentation. Version 3.4 is an audit-driven transparency update — clarified framing and labeling, an expanded 13-source bibliography, and UI fixes — with no changes to the underlying simulation mathematics from v3.3.",
+      "description": "Policy-grade agent-based simulation of all five Compassionism architectures (CCO, PTF, PTH, SZH, CIP). Features live BLEI welfare metrics, Monte Carlo runs (3x/10x/50x) with 95% confidence intervals, participant vs. non-participant stratification, computed one-at-a-time sensitivity analysis, an internal validation suite, JSON/CSV export for replication, and ODD protocol documentation. Open source, with release notes for every version: https://github.com/BetterToBest/compassionism-simulation/releases.",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "isAccessibleForFree": true,
       "about": [
@@ -458,7 +458,7 @@
       "@type": "WebPage",
       "name": "Citation Generator",
       "url": "https://bettertobest.github.io/research-hub/wiki/index.html#citation-tool",
-      "description": "Generate properly formatted citations for 17+ research papers"
+      "description": "Generate properly formatted citations for the 17 core research papers"
     }
   ]
 }
