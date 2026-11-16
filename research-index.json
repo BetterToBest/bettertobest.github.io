@@ -391,7 +391,7 @@
         "Universal Basic Services",
         "Welfare Measurement"
       ],
-      "abstract": "Introduces a unified temporal stability framework for welfare measurement in dual-currency and community ownership economic systems. Six complementary indices — BLEI, EDC, EPPM, FBS, CSI, IPBI — correct three structural gaps in conventional welfare metrics: extraction-accumulation asymmetry, purchasing power premium of community-priced essential goods, and temporal stability governing multi-year entrepreneurial investment feasibility. Applied to US household profiles under CCO-PTF conditions, the framework reveals welfare divergence substantially larger than Gini-based comparisons suggest. Near-poverty households achieve Flourishing-tier stability (730+ days) at approximately 33 months.",
+      "abstract": "Introduces a unified temporal stability framework for welfare measurement in dual-currency and community ownership economic systems. Six complementary indices — BLEI, EDC, EPPM, FBS, CSI, IPBI — correct three structural gaps in conventional welfare metrics: extraction-accumulation asymmetry, purchasing power premium of community-priced essential goods, and temporal stability governing multi-year entrepreneurial investment feasibility. Applied to US household profiles under CCO-PTF conditions, the framework reveals welfare divergence substantially larger than Gini-based comparisons suggest. Near-poverty households achieve Flourishing-tier stability (730+ days) at approximately 33 months (illustrative, under optimal parameters and an assumed saving rate).",
       "about": [
         {"@type": "Thing", "name": "Basic Living Economic Index", "additionalType": "WelfareMeasurementFramework"},
         {"@type": "Thing", "name": "Creative Currency Octaves", "additionalType": "EconomicEngine"},
@@ -452,7 +452,7 @@
       "name": "US Policy Eras and Stability, 1947-2025",
       "url": "https://bettertobest.github.io/research-hub/us-policy-eras.html",
       "datePublished": "2026-11-16",
-      "description": "Simulation study S75 (preregistered): the published record of four US policy eras since 1947 (inflation, essentials prices, unemployment, home and share prices, taxes actually paid, hospital ownership, the Federal Reserve's rule) and the Compassionism Simulation's readings of today's households under each era's settings, with and without the programme. The record is mixed; the programme's effect keeps its direction in every era."
+      "description": "Simulation study S75 (preregistered): the published record of four US policy eras since 1947 (inflation, essentials prices, unemployment, home and share prices, taxes actually paid, hospital ownership, the Federal Reserve's rule) and the Compassionism Simulation's readings of today's households under each era's settings, with and without the programme. The record is mixed; the release design's effect keeps its direction in every era (120 of 120 cells), and the C2.2 design's in 107 of 120, because C2.2 lengthens recovery from an income shock in 1973-1983."
     },
     {
       "@type": "WebPage",
