@@ -427,10 +427,10 @@
         "live BLEI welfare metrics",
         "participant vs. non-participant stratification",
         "computed OAT sensitivity (11 mini-runs, seed 7777)",
-        "4-check internal validation suite",
+        "6-check internal validation suite",
         "JSON/CSV export for replication",
         "ODD protocol documentation",
-        "13-source collapsible bibliography"
+        "collapsible bibliography"
       ],
       "changelog": {
         "release_notes": "https://github.com/BetterToBest/compassionism-simulation/releases",
