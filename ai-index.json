@@ -243,7 +243,7 @@
       "key_findings": {
         "near_poverty_entry": "3.9× BLEI improvement at CCO-PTF entry (Tier 1 → Tier 2)",
         "near_poverty_12mo": "16.6× improvement at 12 months (Tier 3: Stable)",
-        "near_poverty_flourishing": "Flourishing tier reached at approximately 33 months",
+        "near_poverty_flourishing": "Flourishing tier reached at approximately 33 months (illustrative, under optimal parameters and an assumed saving rate)",
         "median_household": "Flourishing tier achieved at entry",
         "ipbi_non_participant": "$22,800–$59,900 estimated annual indirect benefit to high-wealth non-participants"
       },
@@ -314,7 +314,7 @@
         "Preregistered descriptive panel (block bootstrap, Holm correction)",
         "Agent-Based Modeling (model counterfactual: today's households under each era's settings)"
       ],
-      "focus": "Whether earlier US policy eras (1947-1972, 1973-1983, 1984-2007) were steadier than 2008-2025, from the published record and from the Compassionism Simulation, with and without the programme. The record is mixed; the programme's effect keeps its direction in every era.",
+      "focus": "Whether earlier US policy eras (1947-1972, 1973-1983, 1984-2007) were steadier than 2008-2025, from the published record and from the Compassionism Simulation, with and without the programme. The record is mixed; the release design's effect keeps its direction in every era (120 of 120 cells), and the C2.2 design's in 107 of 120, because C2.2 lengthens recovery from an income shock in 1973-1983.",
       "data_source": "https://bettertobest.github.io/research-hub/data/s75-us-eras.json",
       "keywords": ["US economic history", "macroeconomic stability", "effective tax rates", "hospital ownership", "monetary policy rule", "basket poverty"],
       "date_published": "2026-11-16"
@@ -496,7 +496,7 @@
     "pth_penetration": "50% market penetration in 5-19 years",
     "conversion_range": "1x-9x base tiers, ~14x effective max with Phi-rate 1.618x",
     "blei_near_poverty_entry": "3.9× BLEI improvement at CCO-PTF entry",
-    "blei_flourishing_horizon": "~33 months for near-poverty households to reach Flourishing tier (730+ days)",
+    "blei_flourishing_horizon": "~33 months for near-poverty households to reach Flourishing tier (730+ days) (illustrative, under optimal parameters and an assumed saving rate)",
     "bu_purchasing_power_premium": "2.64× at mature PTF scale (Mondragon-calibrated)",
     "interactive_simulation_version": "3.4"
   }
