@@ -316,7 +316,7 @@
         "Preregistered descriptive panel (block bootstrap, Holm correction)",
         "Agent-Based Modeling (model counterfactual: today's households under each era's settings)"
       ],
-      "focus": "Whether earlier US policy eras (1947-1972, 1973-1983, 1984-2007) were steadier than 2008-2025, from the published record and from the Compassionism Simulation, with and without the programme. The record is mixed; the release design's effect keeps its direction in every era (120 of 120 cells), and the C2.2 design's in 107 of 120, because C2.2 lengthens recovery from an income shock in 1973-1983.",
+      "focus": "Whether earlier US policy eras (1947-1972, 1973-1983, 1984-2007) were steadier than 2008-2025, from the published record and from the Compassionism Simulation, with and without the programme. The record is mixed; the opt-in design's effect keeps its direction in every era (120 of 120 cells), and the full-coverage design's in 107 of 120, because it lengthens recovery from an income shock in 1973-1983.",
       "data_source": "https://bettertobest.github.io/research-hub/data/s75-us-eras.json",
       "keywords": ["US economic history", "macroeconomic stability", "effective tax rates", "hospital ownership", "monetary policy rule", "basket poverty"],
       "date_published": "2026-11-16"

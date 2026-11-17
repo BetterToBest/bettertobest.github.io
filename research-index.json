@@ -452,7 +452,7 @@
       "name": "US Policy Eras and Stability, 1947-2025",
       "url": "https://bettertobest.github.io/research-hub/us-policy-eras.html",
       "datePublished": "2026-11-16",
-      "description": "Simulation study S75 (preregistered): the published record of four US policy eras since 1947 (inflation, essentials prices, unemployment, home and share prices, taxes actually paid, hospital ownership, the Federal Reserve's rule) and the Compassionism Simulation's readings of today's households under each era's settings, with and without the programme. The record is mixed; the release design's effect keeps its direction in every era (120 of 120 cells), and the C2.2 design's in 107 of 120, because C2.2 lengthens recovery from an income shock in 1973-1983."
+      "description": "Simulation study (preregistered): the published record of four US policy eras since 1947 (inflation, essentials prices, unemployment, home and share prices, taxes actually paid, hospital ownership, the Federal Reserve's rule) and the Compassionism Simulation's readings of today's households under each era's settings, with and without the programme. The record is mixed; the opt-in design's effect keeps its direction in every era (120 of 120 cells), and the full-coverage design's in 107 of 120, because it lengthens recovery from an income shock in 1973-1983."
     },
     {
       "@type": "WebPage",
