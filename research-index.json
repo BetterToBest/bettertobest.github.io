@@ -455,6 +455,13 @@
       "description": "Simulation study (preregistered): the published record of four US policy eras since 1947 (inflation, essentials prices, unemployment, home and share prices, taxes actually paid, hospital ownership, the Federal Reserve's rule) and the Compassionism Simulation's readings of today's households under each era's settings, with and without the programme. The record is mixed; the opt-in design's effect keeps its direction in every era (120 of 120 cells), and the full-coverage design's in 107 of 120, because it lengthens recovery from an income shock in 1973-1983."
     },
     {
+      "@type": "Report",
+      "name": "Money, Metals and Wages in the US, 1792-2025",
+      "url": "https://bettertobest.github.io/research-hub/us-money-history.html",
+      "datePublished": "2026-11-17",
+      "description": "Descriptive history, every figure from an opened source: gold and silver prices since 1791 with the laws that changed the dollar (Coinage Acts, the Gold Standard Act, Executive Order 6102 and the gold ban of 1933-1974, the $35 price of 1934, silver leaving the coins in 1965, the gold window closed in 1971); a house, a year of college and everyday prices in dollars, ounces of gold and silver and hours at the federal minimum wage; and the minimum wage measured in silver since 1938. Not a proposal: Compassionism does not propose metal-backed money."
+    },
+    {
       "@type": "WebPage",
       "name": "Citation Generator",
       "url": "https://bettertobest.github.io/research-hub/wiki/index.html#citation-tool",
