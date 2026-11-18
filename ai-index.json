@@ -326,11 +326,13 @@
       "title": "Money, Metals and Wages in the US, 1792-2025",
       "path": "https://bettertobest.github.io/research-hub/us-money-history.html",
       "type": "DescriptiveHistory",
-      "methods": ["Opened external sources (MeasuringWorth, Census, NCES, US Department of Labor, Statutes at Large)", "Derived unit conversions (tools/build_s87_money.py)"],
-      "focus": "Gold and silver prices since 1791 and the laws that changed the dollar; prices in dollars, ounces of metal and hours at the federal minimum wage; the minimum wage in silver since 1938. Descriptive only; no simulation figure; Compassionism does not propose metal-backed money.",
+      "methods": ["Opened external sources (MeasuringWorth, Census, NCES, US Department of Labor, Statutes at Large; FRED, World Bank, OMB, BEA, New York Fed, IRS, BLS; ICIJ, ITEP, CFTC, FBI IC3, Pew, Medill; court opinions and news reports)", "Derived calculations (tools/build_s87_money.py, tools/build_s87_part2.py)"],
+      "focus": "Gold and silver prices since 1791 and the laws that changed the dollar; prices in dollars, ounces of metal and hours at the federal minimum wage; the minimum wage in silver since 1938; Bitcoin against gold, shares and the dollar, Silk Road, FTX and meme coins; the Panama Papers, profit shifting and federal corporate income tax since 1934; college costs, student debt and the bankruptcy rules for student loans; media ownership; other changes since the 1960s. Descriptive only; no simulation figure; Compassionism does not propose metal-backed money.",
       "data_source": "https://bettertobest.github.io/research-hub/data/s87-money-history.json",
-      "keywords": ["US monetary history", "gold standard", "silver coinage", "Executive Order 6102", "minimum wage", "purchasing power"],
-      "date_published": "2026-11-17"
+      "keywords": ["US monetary history", "gold standard", "silver coinage", "Executive Order 6102", "minimum wage", "purchasing power", "Bitcoin", "Panama Papers", "corporate income tax", "student loans", "media ownership"],
+      "data_sources_more": ["https://bettertobest.github.io/research-hub/data/s87-part2.json"],
+      "date_published": "2026-11-17",
+      "date_modified": "2026-11-18"
     },
     {
       "id": "monetary-stability",
