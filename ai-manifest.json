@@ -386,7 +386,7 @@
       "title": "Compassionism Framework Simulation",
       "path": "https://bettertobest.github.io/compassionism-simulation/",
       "type": "InteractiveSimulation",
-      "version": "5.9.1",
+      "version": "5.9.23",
       "methods": [
         "Agent-Based Modeling",
         "Monte Carlo (3x/10x/50x runs, 95% CI)",

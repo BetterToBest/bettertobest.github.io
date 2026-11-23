@@ -13,7 +13,7 @@
     "languages": [
       "en-US"
     ],
-    "last_updated": "2026-11-16"
+    "last_updated": "2026-11-23"
   },
   "author_profile": {
     "name": "Duke Johnson",
@@ -421,7 +421,7 @@
       "title": "Compassionism Framework Simulation",
       "path": "https://bettertobest.github.io/compassionism-simulation/",
       "type": "InteractiveSimulation",
-      "version": "5.9.1",
+      "version": "5.9.23",
       "methods": [
         "Agent-Based Modeling",
         "Monte Carlo (3x/10x/50x runs, 95% CI)",
@@ -513,6 +513,6 @@
     "blei_near_poverty_entry": "3.9× BLEI improvement at CCO-PTF entry",
     "blei_flourishing_horizon": "~33 months for near-poverty households to reach Flourishing tier (730+ days) (illustrative, under optimal parameters and an assumed saving rate)",
     "bu_purchasing_power_premium": "2.64× at mature PTF scale (assumed PTF food-price advantage: PTF food prices at about 38% of market; not yet calibrated to data)",
-    "interactive_simulation_version": "5.9.1"
+    "interactive_simulation_version": "5.9.23"
   }
 }
