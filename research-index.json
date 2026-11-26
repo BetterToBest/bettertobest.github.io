@@ -408,10 +408,10 @@
       "@type": "SoftwareApplication",
       "name": "Compassionism Framework Simulation",
       "url": "https://bettertobest.github.io/compassionism-simulation/",
-      "softwareVersion": "5.9.1",
+      "softwareVersion": "5.9.23",
       "applicationCategory": "Policy-grade interactive agent-based simulation",
       "operatingSystem": "Web browser",
-      "dateModified": "2026-11-16",
+      "dateModified": "2026-11-26",
       "author": [
         {"@type": "Person", "name": "Duke Johnson", "@id": "https://independentresearcher.academia.edu/DukeJohnson"},
         {"@type": "Organization", "name": "Anthropic Claude", "description": "AI Research Assistant"}

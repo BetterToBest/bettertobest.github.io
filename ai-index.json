@@ -302,7 +302,7 @@
         "Agent-Based Modeling"
       ],
       "data_source": "https://bettertobest.github.io/compassionism-simulation/",
-      "data_source_version": "5.9.1",
+      "data_source_version": "5.9.23",
       "defines": [
         "cco"
       ]
